@@ -10,8 +10,8 @@ import SwiftUI
 struct ScrollViews: View {
     var body: some View {
         //VerticalScrollViews()
-        //HoricontalScrollViews()
-        ComplexScrollViews()
+        HoricontalScrollViews()
+        //ComplexScrollViews()
     }
 }
 
@@ -19,7 +19,7 @@ struct ScrollViews: View {
 struct VerticalScrollViews: View {
     var body: some View {
         ScrollView(.vertical, content: {
-            VStack{
+            //VStack{
                 ForEach(0..<20) { index in
                     Rectangle()
                         .fill(
@@ -33,7 +33,7 @@ struct VerticalScrollViews: View {
                         .frame(width: 300,
                                height: 200)
                 }
-            }
+            //}
         })
         .scrollIndicators(.hidden)
     }

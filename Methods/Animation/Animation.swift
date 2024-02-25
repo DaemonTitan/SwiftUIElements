@@ -28,9 +28,9 @@ struct Animation: View {
             Button("Spring Animation") {
                 springAnimation.toggle()
             }
-            //RectangleAnimations(isAnimated: $isAnimated)
+            RectangleAnimations(isAnimated: $isAnimated)
             //RectangleAnimationTiming(animated: $animated)
-            RectangleSpringAnimation(springAnimation: $springAnimation)
+            //RectangleSpringAnimation(springAnimation: $springAnimation)
 
         }
     }
