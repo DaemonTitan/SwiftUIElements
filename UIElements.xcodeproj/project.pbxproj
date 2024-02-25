@@ -50,6 +50,7 @@
 		F33F8F272B70A42000C380B9 /* TextSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F8F262B70A42000C380B9 /* TextSelection.swift */; };
 		F33F8F292B70AA8E00C380B9 /* ListSwipAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F8F282B70AA8E00C380B9 /* ListSwipAction.swift */; };
 		F33F8F2B2B70AD1900C380B9 /* Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F8F2A2B70AD1900C380B9 /* Badges.swift */; };
+		F360CA3E2B8BF8AE00992670 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */; };
 		F368A7A62B69B56A00E292E6 /* FormsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368A7A52B69B56A00E292E6 /* FormsSections.swift */; };
 		F368A7A82B69B6D700E292E6 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368A7A72B69B6D700E292E6 /* TextEditor.swift */; };
 		F368A7AA2B69BAA000E292E6 /* ToggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368A7A92B69BAA000E292E6 /* ToggleSwitch.swift */; };
@@ -117,6 +118,7 @@
 		F33F8F262B70A42000C380B9 /* TextSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelection.swift; sourceTree = "<group>"; };
 		F33F8F282B70AA8E00C380B9 /* ListSwipAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipAction.swift; sourceTree = "<group>"; };
 		F33F8F2A2B70AD1900C380B9 /* Badges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badges.swift; sourceTree = "<group>"; };
+		F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		F368A7A52B69B56A00E292E6 /* FormsSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsSections.swift; sourceTree = "<group>"; };
 		F368A7A72B69B6D700E292E6 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
 		F368A7A92B69BAA000E292E6 /* ToggleSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitch.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				F307DB2D2B6B547D004FD838 /* TapGesture.swift */,
+				F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */,
 			);
 			path = Gesture;
 			sourceTree = "<group>";
@@ -280,8 +283,8 @@
 		F39029DC2B8B50D500664F04 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				F32D42DE2B57557700C7C26E /* ViewTransition.swift */,
 				F39029E32B8B550700664F04 /* Practices */,
+				F32D42DE2B57557700C7C26E /* ViewTransition.swift */,
 				F32D42DC2B5749C000C7C26E /* Animation.swift */,
 				F37723922B71FC8300F1C215 /* AnimationUpgarde.swift */,
 				F39029DF2B8B51CC00664F04 /* MatchedGeometry.swift */,
@@ -433,6 +436,7 @@
 				F32D42E12B57855300C7C26E /* PopupSheets.swift in Sources */,
 				F31237532B6C672900DA0186 /* AppStorages.swift in Sources */,
 				F3B1879F2B5BE9EA001C4F4D /* ListFunction.swift in Sources */,
+				F360CA3E2B8BF8AE00992670 /* LongPressGesture.swift in Sources */,
 				F307DB302B6B5735004FD838 /* Models.swift in Sources */,
 				F3077E392B651DC30056E227 /* TabBarCustom.swift in Sources */,
 				F30A750C2B54B9C100ECD4D5 /* Texts.swift in Sources */,
