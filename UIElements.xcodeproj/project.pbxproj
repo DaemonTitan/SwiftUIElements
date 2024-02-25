@@ -153,6 +153,8 @@
 		F300401D2B5637AE0078A942 /* Methods */ = {
 			isa = PBXGroup;
 			children = (
+				F360CA3C2B8BF7FD00992670 /* Navigations */,
+				F360CA3B2B8BF7CB00992670 /* Gesture */,
 				F39029DC2B8B50D500664F04 /* Animation */,
 				F3C4578A2B79E20C008D0447 /* WebView */,
 				F300401E2B5637D10078A942 /* ForEachLoop.swift */,
@@ -160,11 +162,8 @@
 				F32D42D62B57384000C7C26E /* ExtractSubView.swift */,
 				F32D42D82B573EC900C7C26E /* BindingProperty.swift */,
 				F32D42DA2B57461300C7C26E /* Condition.swift */,
-				F32D42DE2B57557700C7C26E /* ViewTransition.swift */,
 				F32D42E02B57855300C7C26E /* PopupSheets.swift */,
 				F3B737F32B5895170003DC6C /* PopOverSheet.swift */,
-				F3C0FAEC2B593A2400609A07 /* PageNavigation.swift */,
-				F377238C2B71C65100F1C215 /* PageNavigationStack.swift */,
 				F3B1879E2B5BE9EA001C4F4D /* ListFunction.swift */,
 				F32F7FC62B5C9EBE0083D4D9 /* AlertFunction.swift */,
 				F3BA0E672B5D257B00B7C9E1 /* ActionSheetFunction.swift */,
@@ -173,7 +172,6 @@
 				F3077E332B6502B80056E227 /* DateAndTime.swift */,
 				F307DB292B6B458B004FD838 /* LightAndDarkMode.swift */,
 				F307DB2B2B6B50E2004FD838 /* AppearDisappear.swift */,
-				F307DB2D2B6B547D004FD838 /* TapGesture.swift */,
 				F31237522B6C672900DA0186 /* AppStorages.swift */,
 				F33F8F222B709D8600C380B9 /* AsynicImages.swift */,
 			);
@@ -254,6 +252,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F360CA3B2B8BF7CB00992670 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				F307DB2D2B6B547D004FD838 /* TapGesture.swift */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		F360CA3C2B8BF7FD00992670 /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+				F3C0FAEC2B593A2400609A07 /* PageNavigation.swift */,
+				F377238C2B71C65100F1C215 /* PageNavigationStack.swift */,
+			);
+			path = Navigations;
+			sourceTree = "<group>";
+		};
 		F37723892B7199BE00F1C215 /* Practics */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +280,7 @@
 		F39029DC2B8B50D500664F04 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				F32D42DE2B57557700C7C26E /* ViewTransition.swift */,
 				F39029E32B8B550700664F04 /* Practices */,
 				F32D42DC2B5749C000C7C26E /* Animation.swift */,
 				F37723922B71FC8300F1C215 /* AnimationUpgarde.swift */,
