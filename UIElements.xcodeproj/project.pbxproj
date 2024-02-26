@@ -51,6 +51,8 @@
 		F33F8F292B70AA8E00C380B9 /* ListSwipAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F8F282B70AA8E00C380B9 /* ListSwipAction.swift */; };
 		F33F8F2B2B70AD1900C380B9 /* Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F8F2A2B70AD1900C380B9 /* Badges.swift */; };
 		F360CA3E2B8BF8AE00992670 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */; };
+		F360CA402B8C0B7A00992670 /* ZoomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */; };
+		F360CA422B8C2A9700992670 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA412B8C2A9700992670 /* Rotation.swift */; };
 		F368A7A62B69B56A00E292E6 /* FormsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368A7A52B69B56A00E292E6 /* FormsSections.swift */; };
 		F368A7A82B69B6D700E292E6 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368A7A72B69B6D700E292E6 /* TextEditor.swift */; };
 		F368A7AA2B69BAA000E292E6 /* ToggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368A7A92B69BAA000E292E6 /* ToggleSwitch.swift */; };
@@ -119,6 +121,8 @@
 		F33F8F282B70AA8E00C380B9 /* ListSwipAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipAction.swift; sourceTree = "<group>"; };
 		F33F8F2A2B70AD1900C380B9 /* Badges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badges.swift; sourceTree = "<group>"; };
 		F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomGesture.swift; sourceTree = "<group>"; };
+		F360CA412B8C2A9700992670 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
 		F368A7A52B69B56A00E292E6 /* FormsSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsSections.swift; sourceTree = "<group>"; };
 		F368A7A72B69B6D700E292E6 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
 		F368A7A92B69BAA000E292E6 /* ToggleSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitch.swift; sourceTree = "<group>"; };
@@ -259,6 +263,8 @@
 			children = (
 				F307DB2D2B6B547D004FD838 /* TapGesture.swift */,
 				F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */,
+				F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */,
+				F360CA412B8C2A9700992670 /* Rotation.swift */,
 			);
 			path = Gesture;
 			sourceTree = "<group>";
@@ -427,6 +433,7 @@
 				F3F0B6C02B6A56BF002BB5E3 /* DifferentColourPicker.swift in Sources */,
 				F3C0FAED2B593A2400609A07 /* PageNavigation.swift in Sources */,
 				F307DB262B6B0E82004FD838 /* Steps.swift in Sources */,
+				F360CA402B8C0B7A00992670 /* ZoomGesture.swift in Sources */,
 				F37723912B71F28100F1C215 /* SafeArea.swift in Sources */,
 				F31237512B6C52A200DA0186 /* EnvironmentObject.swift in Sources */,
 				F307DB282B6B1AEF004FD838 /* TabViews.swift in Sources */,
@@ -453,6 +460,7 @@
 				F32D42DF2B57557700C7C26E /* ViewTransition.swift in Sources */,
 				F33F8F232B709D8600C380B9 /* AsynicImages.swift in Sources */,
 				F32D42E32B57950F00C7C26E /* UnevenShapes.swift in Sources */,
+				F360CA422B8C2A9700992670 /* Rotation.swift in Sources */,
 				F300401F2B5637D10078A942 /* ForEachLoop.swift in Sources */,
 				F33F8F292B70AA8E00C380B9 /* ListSwipAction.swift in Sources */,
 				F368A7AC2B69FF9F00E292E6 /* Pickers.swift in Sources */,

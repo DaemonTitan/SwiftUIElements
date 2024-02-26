@@ -11,7 +11,9 @@ import SwiftUI
 struct UIElementsApp: App {
     var body: some Scene {
         WindowGroup {
-            ListFunction()
+            //ListFunction()
+            //ZoomGestureSample()
+            Rotation()
         }
     }
 }
