@@ -54,6 +54,7 @@
 		F360CA402B8C0B7A00992670 /* ZoomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */; };
 		F360CA422B8C2A9700992670 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA412B8C2A9700992670 /* Rotation.swift */; };
 		F360CA442B8C3E4A00992670 /* DragMoveSwipGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA432B8C3E4A00992670 /* DragMoveSwipGesture.swift */; };
+		F360CA462B8CA8C700992670 /* ScrollViewReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA452B8CA8C700992670 /* ScrollViewReaders.swift */; };
 		F368A7A62B69B56A00E292E6 /* FormsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368A7A52B69B56A00E292E6 /* FormsSections.swift */; };
 		F368A7A82B69B6D700E292E6 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368A7A72B69B6D700E292E6 /* TextEditor.swift */; };
 		F368A7AA2B69BAA000E292E6 /* ToggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368A7A92B69BAA000E292E6 /* ToggleSwitch.swift */; };
@@ -125,6 +126,7 @@
 		F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomGesture.swift; sourceTree = "<group>"; };
 		F360CA412B8C2A9700992670 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
 		F360CA432B8C3E4A00992670 /* DragMoveSwipGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragMoveSwipGesture.swift; sourceTree = "<group>"; };
+		F360CA452B8CA8C700992670 /* ScrollViewReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaders.swift; sourceTree = "<group>"; };
 		F368A7A52B69B56A00E292E6 /* FormsSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsSections.swift; sourceTree = "<group>"; };
 		F368A7A72B69B6D700E292E6 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
 		F368A7A92B69BAA000E292E6 /* ToggleSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitch.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 				F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */,
 				F360CA412B8C2A9700992670 /* Rotation.swift */,
 				F360CA432B8C3E4A00992670 /* DragMoveSwipGesture.swift */,
+				F360CA452B8CA8C700992670 /* ScrollViewReaders.swift */,
 			);
 			path = Gesture;
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 				F32D42DD2B5749C000C7C26E /* Animation.swift in Sources */,
 				F39029E22B8B54FB00664F04 /* MatchGeoPractice1.swift in Sources */,
 				F377238B2B719E6300F1C215 /* FocusMode.swift in Sources */,
+				F360CA462B8CA8C700992670 /* ScrollViewReaders.swift in Sources */,
 				F37723932B71FC8300F1C215 /* AnimationUpgarde.swift in Sources */,
 				F32D42DF2B57557700C7C26E /* ViewTransition.swift in Sources */,
 				F33F8F232B709D8600C380B9 /* AsynicImages.swift in Sources */,
