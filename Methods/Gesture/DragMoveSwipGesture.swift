@@ -86,14 +86,19 @@ struct DragMoveSwipGesture2: View {
                     DragGesture()
                         .onChanged{ value in
                             withAnimation(.spring) {
+                                // From the start of the drag gesture to the current event of the drag gesture
                                 currentDragOffsetY = value.translation.height
                             }
                         }
                         .onEnded{ value in
                             withAnimation(.spring) {
+                                // When grag element from bottom to up the translation height is negative
                                 if currentDragOffsetY < -150 {
+                                    // Set endingOffsetY to the negative number of startingOffsetY. This is to bring the element back to the start position if currentDragOffsetY is less then -150.
                                     endingOffsetY = -startingOffsetY
+                                    // When drag element from up to bottom the translation height is positive.
                                 } else if endingOffsetY != 0 && currentDragOffsetY > 150 {
+                                    // Set element to bottom
                                     endingOffsetY = 0
                                 }
                                 currentDragOffsetY = 0
@@ -143,6 +148,6 @@ struct MySignUpView: View {
 
 
 #Preview {
-    DragMoveSwipGesture()
-    //DragMoveSwipGesture2()
+    //DragMoveSwipGesture()
+    DragMoveSwipGesture2()
 }
