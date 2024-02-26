@@ -13,7 +13,8 @@ struct UIElementsApp: App {
         WindowGroup {
             //ListFunction()
             //ZoomGestureSample()
-            Rotation()
+            //Rotation()
+            DragMoveSwipGesture()
         }
     }
 }
