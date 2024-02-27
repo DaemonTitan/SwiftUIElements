@@ -14,7 +14,8 @@ struct UIElementsApp: App {
             //ListFunction()
             //ZoomGestureSample()
             //Rotation()
-            DragMoveSwipGesture()
+            //DragMoveSwipGesture()
+            Notifcations()
         }
     }
 }

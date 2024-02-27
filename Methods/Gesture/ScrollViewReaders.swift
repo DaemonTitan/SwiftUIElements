@@ -32,8 +32,6 @@ struct ScrollViewReaders: View {
             ScrollView {
                 // proxy means the location of each item in the loop on screen
                 ScrollViewReader { proxy in
-                 
-                    
                     ForEach(0..<50) { index in
                         Text("This is item number: \(index)")
                             .font(.headline)
@@ -51,8 +49,6 @@ struct ScrollViewReaders: View {
                             proxy.scrollTo(value, anchor: .top)
                         }
                     }
-                    
-                    
                 }
             }
         }

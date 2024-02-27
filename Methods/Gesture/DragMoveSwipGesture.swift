@@ -51,6 +51,7 @@ struct DragMoveSwipGesture: View {
         return 1.0 - min(percentage, 0.5) * 0.5
     }
     
+    // MARK: Calculatesrotation angle in response to a horizontal drag gesture
     func getRoationAmount() -> Double {
         // calculates half the height of the screen. Total screen height divided by 2 gets midpoint
         // card move to left gets negative number, move to right positive number

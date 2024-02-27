@@ -50,6 +50,10 @@
 		F33F8F272B70A42000C380B9 /* TextSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F8F262B70A42000C380B9 /* TextSelection.swift */; };
 		F33F8F292B70AA8E00C380B9 /* ListSwipAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F8F282B70AA8E00C380B9 /* ListSwipAction.swift */; };
 		F33F8F2B2B70AD1900C380B9 /* Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F8F2A2B70AD1900C380B9 /* Badges.swift */; };
+		F34311892B8D5A6A00393E21 /* GeometryReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34311882B8D5A6A00393E21 /* GeometryReaders.swift */; };
+		F343118C2B8D72BA00393E21 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F343118B2B8D72BA00393E21 /* MultipleSheets.swift */; };
+		F343118E2B8D90FE00393E21 /* Masking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F343118D2B8D90FE00393E21 /* Masking.swift */; };
+		F34311902B8DEE6800393E21 /* Notifcations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F343118F2B8DEE6800393E21 /* Notifcations.swift */; };
 		F360CA3E2B8BF8AE00992670 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */; };
 		F360CA402B8C0B7A00992670 /* ZoomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */; };
 		F360CA422B8C2A9700992670 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA412B8C2A9700992670 /* Rotation.swift */; };
@@ -122,6 +126,10 @@
 		F33F8F262B70A42000C380B9 /* TextSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelection.swift; sourceTree = "<group>"; };
 		F33F8F282B70AA8E00C380B9 /* ListSwipAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipAction.swift; sourceTree = "<group>"; };
 		F33F8F2A2B70AD1900C380B9 /* Badges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badges.swift; sourceTree = "<group>"; };
+		F34311882B8D5A6A00393E21 /* GeometryReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaders.swift; sourceTree = "<group>"; };
+		F343118B2B8D72BA00393E21 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
+		F343118D2B8D90FE00393E21 /* Masking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masking.swift; sourceTree = "<group>"; };
+		F343118F2B8DEE6800393E21 /* Notifcations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifcations.swift; sourceTree = "<group>"; };
 		F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomGesture.swift; sourceTree = "<group>"; };
 		F360CA412B8C2A9700992670 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
@@ -163,6 +171,7 @@
 		F300401D2B5637AE0078A942 /* Methods */ = {
 			isa = PBXGroup;
 			children = (
+				F343118A2B8D729800393E21 /* Sheets */,
 				F360CA3C2B8BF7FD00992670 /* Navigations */,
 				F360CA3B2B8BF7CB00992670 /* Gesture */,
 				F39029DC2B8B50D500664F04 /* Animation */,
@@ -172,11 +181,8 @@
 				F32D42D62B57384000C7C26E /* ExtractSubView.swift */,
 				F32D42D82B573EC900C7C26E /* BindingProperty.swift */,
 				F32D42DA2B57461300C7C26E /* Condition.swift */,
-				F32D42E02B57855300C7C26E /* PopupSheets.swift */,
-				F3B737F32B5895170003DC6C /* PopOverSheet.swift */,
 				F3B1879E2B5BE9EA001C4F4D /* ListFunction.swift */,
 				F32F7FC62B5C9EBE0083D4D9 /* AlertFunction.swift */,
-				F3BA0E672B5D257B00B7C9E1 /* ActionSheetFunction.swift */,
 				F3BA0E6A2B5D2A7B00B7C9E1 /* ContextMenu.swift */,
 				F30040272B5696950078A942 /* StateVariable.swift */,
 				F3077E332B6502B80056E227 /* DateAndTime.swift */,
@@ -184,6 +190,8 @@
 				F307DB2B2B6B50E2004FD838 /* AppearDisappear.swift */,
 				F31237522B6C672900DA0186 /* AppStorages.swift */,
 				F33F8F222B709D8600C380B9 /* AsynicImages.swift */,
+				F343118D2B8D90FE00393E21 /* Masking.swift */,
+				F343118F2B8DEE6800393E21 /* Notifcations.swift */,
 			);
 			path = Methods;
 			sourceTree = "<group>";
@@ -262,6 +270,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F343118A2B8D729800393E21 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				F3BA0E672B5D257B00B7C9E1 /* ActionSheetFunction.swift */,
+				F32D42E02B57855300C7C26E /* PopupSheets.swift */,
+				F3B737F32B5895170003DC6C /* PopOverSheet.swift */,
+				F343118B2B8D72BA00393E21 /* MultipleSheets.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
 		F360CA3B2B8BF7CB00992670 /* Gesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +290,7 @@
 				F360CA412B8C2A9700992670 /* Rotation.swift */,
 				F360CA432B8C3E4A00992670 /* DragMoveSwipGesture.swift */,
 				F360CA452B8CA8C700992670 /* ScrollViewReaders.swift */,
+				F34311882B8D5A6A00393E21 /* GeometryReaders.swift */,
 			);
 			path = Gesture;
 			sourceTree = "<group>";
@@ -419,6 +439,7 @@
 				F37723952B71FF4500F1C215 /* Popovers.swift in Sources */,
 				F368A7A62B69B56A00E292E6 /* FormsSections.swift in Sources */,
 				F3C4578E2B79E251008D0447 /* WebContentView.swift in Sources */,
+				F34311902B8DEE6800393E21 /* Notifcations.swift in Sources */,
 				F32D42D52B5734C900C7C26E /* ExtractFunction.swift in Sources */,
 				F30040242B564F050078A942 /* ColumnAndGrid.swift in Sources */,
 				F32D42D72B57384000C7C26E /* ExtractSubView.swift in Sources */,
@@ -426,15 +447,18 @@
 				F307DB2A2B6B458B004FD838 /* LightAndDarkMode.swift in Sources */,
 				F368A7A82B69B6D700E292E6 /* TextEditor.swift in Sources */,
 				F307DB2E2B6B547D004FD838 /* TapGesture.swift in Sources */,
+				F34311892B8D5A6A00393E21 /* GeometryReaders.swift in Sources */,
 				F3D628912B6BA69A00D6AFA5 /* ViewModel.swift in Sources */,
 				F30040262B56883A0078A942 /* ScreenSafeArea.swift in Sources */,
 				F3008FBA2B7246E6009FF36D /* AnyLayouts.swift in Sources */,
 				F3C4578C2B79E230008D0447 /* WebView.swift in Sources */,
 				F30040282B5696950078A942 /* StateVariable.swift in Sources */,
 				F368A7AA2B69BAA000E292E6 /* ToggleSwitch.swift in Sources */,
+				F343118E2B8D90FE00393E21 /* Masking.swift in Sources */,
 				F30040002B55F13A0078A942 /* Practices1.swift in Sources */,
 				F30040212B5637FB0078A942 /* ScrollView.swift in Sources */,
 				F33F8F2B2B70AD1900C380B9 /* Badges.swift in Sources */,
+				F343118C2B8D72BA00393E21 /* MultipleSheets.swift in Sources */,
 				F39029E02B8B51CC00664F04 /* MatchedGeometry.swift in Sources */,
 				F3F0B6C02B6A56BF002BB5E3 /* DifferentColourPicker.swift in Sources */,
 				F3C0FAED2B593A2400609A07 /* PageNavigation.swift in Sources */,
