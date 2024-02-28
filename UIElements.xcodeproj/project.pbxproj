@@ -54,6 +54,7 @@
 		F343118C2B8D72BA00393E21 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F343118B2B8D72BA00393E21 /* MultipleSheets.swift */; };
 		F343118E2B8D90FE00393E21 /* Masking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F343118D2B8D90FE00393E21 /* Masking.swift */; };
 		F34311902B8DEE6800393E21 /* Notifcations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F343118F2B8DEE6800393E21 /* Notifcations.swift */; };
+		F34652082B8E828D00AED13C /* DataManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34652072B8E828D00AED13C /* DataManipulation.swift */; };
 		F360CA3E2B8BF8AE00992670 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */; };
 		F360CA402B8C0B7A00992670 /* ZoomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */; };
 		F360CA422B8C2A9700992670 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA412B8C2A9700992670 /* Rotation.swift */; };
@@ -130,6 +131,7 @@
 		F343118B2B8D72BA00393E21 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
 		F343118D2B8D90FE00393E21 /* Masking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masking.swift; sourceTree = "<group>"; };
 		F343118F2B8DEE6800393E21 /* Notifcations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifcations.swift; sourceTree = "<group>"; };
+		F34652072B8E828D00AED13C /* DataManipulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManipulation.swift; sourceTree = "<group>"; };
 		F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomGesture.swift; sourceTree = "<group>"; };
 		F360CA412B8C2A9700992670 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				F33F8F222B709D8600C380B9 /* AsynicImages.swift */,
 				F343118D2B8D90FE00393E21 /* Masking.swift */,
 				F343118F2B8DEE6800393E21 /* Notifcations.swift */,
+				F34652072B8E828D00AED13C /* DataManipulation.swift */,
 			);
 			path = Methods;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 				F39029E02B8B51CC00664F04 /* MatchedGeometry.swift in Sources */,
 				F3F0B6C02B6A56BF002BB5E3 /* DifferentColourPicker.swift in Sources */,
 				F3C0FAED2B593A2400609A07 /* PageNavigation.swift in Sources */,
+				F34652082B8E828D00AED13C /* DataManipulation.swift in Sources */,
 				F360CA442B8C3E4A00992670 /* DragMoveSwipGesture.swift in Sources */,
 				F307DB262B6B0E82004FD838 /* Steps.swift in Sources */,
 				F360CA402B8C0B7A00992670 /* ZoomGesture.swift in Sources */,
