@@ -45,6 +45,9 @@
 		F32D42E12B57855300C7C26E /* PopupSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32D42E02B57855300C7C26E /* PopupSheets.swift */; };
 		F32D42E32B57950F00C7C26E /* UnevenShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32D42E22B57950F00C7C26E /* UnevenShapes.swift */; };
 		F32F7FC72B5C9EBE0083D4D9 /* AlertFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32F7FC62B5C9EBE0083D4D9 /* AlertFunction.swift */; };
+		F3326A292B95733800F80939 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3326A282B95733800F80939 /* FileManager.swift */; };
+		F3326A2C2B95883A00F80939 /* FileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3326A2B2B95883A00F80939 /* FileCache.swift */; };
+		F33E364B2B9494A90029FB66 /* PublishSubscribCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33E364A2B9494A90029FB66 /* PublishSubscribCombine.swift */; };
 		F33F8F232B709D8600C380B9 /* AsynicImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F8F222B709D8600C380B9 /* AsynicImages.swift */; };
 		F33F8F252B70A1E600C380B9 /* BackgroundMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F8F242B70A1E600C380B9 /* BackgroundMaterials.swift */; };
 		F33F8F272B70A42000C380B9 /* TextSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F8F262B70A42000C380B9 /* TextSelection.swift */; };
@@ -80,6 +83,15 @@
 		F3C4578E2B79E251008D0447 /* WebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4578D2B79E251008D0447 /* WebContentView.swift */; };
 		F3D628912B6BA69A00D6AFA5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D628902B6BA69A00D6AFA5 /* ViewModel.swift */; };
 		F3F0B6C02B6A56BF002BB5E3 /* DifferentColourPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F0B6BF2B6A56BF002BB5E3 /* DifferentColourPicker.swift */; };
+		F3F2C3C32B8FFD7A00BFB0E0 /* BKThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3C22B8FFD7A00BFB0E0 /* BKThread.swift */; };
+		F3F2C3C52B9021B900BFB0E0 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3C42B9021B900BFB0E0 /* WeakSelf.swift */; };
+		F3F2C3C72B9038B200BFB0E0 /* TypealiasName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3C62B9038B200BFB0E0 /* TypealiasName.swift */; };
+		F3F2C3C92B903ACE00BFB0E0 /* EscaptingClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3C82B903ACE00BFB0E0 /* EscaptingClosure.swift */; };
+		F3F2C3CB2B90412300BFB0E0 /* CodableDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3CA2B90412300BFB0E0 /* CodableDecodable.swift */; };
+		F3F2C3CD2B91609C00BFB0E0 /* APICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3CC2B91609C00BFB0E0 /* APICalls.swift */; };
+		F3F2C3CF2B917C7C00BFB0E0 /* DispatchGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3CE2B917C7C00BFB0E0 /* DispatchGroups.swift */; };
+		F3F2C3D12B91919600BFB0E0 /* CombineFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3D02B91919600BFB0E0 /* CombineFramework.swift */; };
+		F3F2C3D32B91D82300BFB0E0 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3D22B91D82300BFB0E0 /* TimerOnReceive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +134,9 @@
 		F32D42E02B57855300C7C26E /* PopupSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupSheets.swift; sourceTree = "<group>"; };
 		F32D42E22B57950F00C7C26E /* UnevenShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnevenShapes.swift; sourceTree = "<group>"; };
 		F32F7FC62B5C9EBE0083D4D9 /* AlertFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFunction.swift; sourceTree = "<group>"; };
+		F3326A282B95733800F80939 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		F3326A2B2B95883A00F80939 /* FileCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCache.swift; sourceTree = "<group>"; };
+		F33E364A2B9494A90029FB66 /* PublishSubscribCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishSubscribCombine.swift; sourceTree = "<group>"; };
 		F33F8F222B709D8600C380B9 /* AsynicImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynicImages.swift; sourceTree = "<group>"; };
 		F33F8F242B70A1E600C380B9 /* BackgroundMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterials.swift; sourceTree = "<group>"; };
 		F33F8F262B70A42000C380B9 /* TextSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelection.swift; sourceTree = "<group>"; };
@@ -157,6 +172,15 @@
 		F3C4578D2B79E251008D0447 /* WebContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentView.swift; sourceTree = "<group>"; };
 		F3D628902B6BA69A00D6AFA5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		F3F0B6BF2B6A56BF002BB5E3 /* DifferentColourPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentColourPicker.swift; sourceTree = "<group>"; };
+		F3F2C3C22B8FFD7A00BFB0E0 /* BKThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BKThread.swift; sourceTree = "<group>"; };
+		F3F2C3C42B9021B900BFB0E0 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
+		F3F2C3C62B9038B200BFB0E0 /* TypealiasName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasName.swift; sourceTree = "<group>"; };
+		F3F2C3C82B903ACE00BFB0E0 /* EscaptingClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscaptingClosure.swift; sourceTree = "<group>"; };
+		F3F2C3CA2B90412300BFB0E0 /* CodableDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDecodable.swift; sourceTree = "<group>"; };
+		F3F2C3CC2B91609C00BFB0E0 /* APICalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICalls.swift; sourceTree = "<group>"; };
+		F3F2C3CE2B917C7C00BFB0E0 /* DispatchGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroups.swift; sourceTree = "<group>"; };
+		F3F2C3D02B91919600BFB0E0 /* CombineFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineFramework.swift; sourceTree = "<group>"; };
+		F3F2C3D22B91D82300BFB0E0 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +197,10 @@
 		F300401D2B5637AE0078A942 /* Methods */ = {
 			isa = PBXGroup;
 			children = (
+				F3326A2A2B95879100F80939 /* FileManager */,
+				F33E364C2B9494B60029FB66 /* Combine */,
+				F3F2C3C12B8FFD5100BFB0E0 /* URLSession */,
+				F3F2C3C02B8FFD4800BFB0E0 /* Threads */,
 				F343118A2B8D729800393E21 /* Sheets */,
 				F360CA3C2B8BF7FD00992670 /* Navigations */,
 				F360CA3B2B8BF7CB00992670 /* Gesture */,
@@ -195,6 +223,10 @@
 				F343118D2B8D90FE00393E21 /* Masking.swift */,
 				F343118F2B8DEE6800393E21 /* Notifcations.swift */,
 				F34652072B8E828D00AED13C /* DataManipulation.swift */,
+				F3F2C3C42B9021B900BFB0E0 /* WeakSelf.swift */,
+				F3F2C3C62B9038B200BFB0E0 /* TypealiasName.swift */,
+				F3F2C3C82B903ACE00BFB0E0 /* EscaptingClosure.swift */,
+				F3F2C3CA2B90412300BFB0E0 /* CodableDecodable.swift */,
 			);
 			path = Methods;
 			sourceTree = "<group>";
@@ -271,6 +303,24 @@
 				F30A75022B54A2EF00ECD4D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3326A2A2B95879100F80939 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				F3326A282B95733800F80939 /* FileManager.swift */,
+				F3326A2B2B95883A00F80939 /* FileCache.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		F33E364C2B9494B60029FB66 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2C3D22B91D82300BFB0E0 /* TimerOnReceive.swift */,
+				F33E364A2B9494A90029FB66 /* PublishSubscribCombine.swift */,
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		F343118A2B8D729800393E21 /* Sheets */ = {
@@ -362,6 +412,24 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F3F2C3C02B8FFD4800BFB0E0 /* Threads */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2C3C22B8FFD7A00BFB0E0 /* BKThread.swift */,
+				F3F2C3CE2B917C7C00BFB0E0 /* DispatchGroups.swift */,
+			);
+			path = Threads;
+			sourceTree = "<group>";
+		};
+		F3F2C3C12B8FFD5100BFB0E0 /* URLSession */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2C3CC2B91609C00BFB0E0 /* APICalls.swift */,
+				F3F2C3D02B91919600BFB0E0 /* CombineFramework.swift */,
+			);
+			path = URLSession;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -432,6 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F2C3D32B91D82300BFB0E0 /* TimerOnReceive.swift in Sources */,
 				F3077E552B68BD650056E227 /* SwiftUIScrollViewReader.swift in Sources */,
 				F3077E342B6502B90056E227 /* DateAndTime.swift in Sources */,
 				F32D42D92B573EC900C7C26E /* BindingProperty.swift in Sources */,
@@ -445,9 +514,11 @@
 				F34311902B8DEE6800393E21 /* Notifcations.swift in Sources */,
 				F32D42D52B5734C900C7C26E /* ExtractFunction.swift in Sources */,
 				F30040242B564F050078A942 /* ColumnAndGrid.swift in Sources */,
+				F3F2C3C72B9038B200BFB0E0 /* TypealiasName.swift in Sources */,
 				F32D42D72B57384000C7C26E /* ExtractSubView.swift in Sources */,
 				F30A74FE2B54A2ED00ECD4D5 /* ContentView.swift in Sources */,
 				F307DB2A2B6B458B004FD838 /* LightAndDarkMode.swift in Sources */,
+				F3326A2C2B95883A00F80939 /* FileCache.swift in Sources */,
 				F368A7A82B69B6D700E292E6 /* TextEditor.swift in Sources */,
 				F307DB2E2B6B547D004FD838 /* TapGesture.swift in Sources */,
 				F34311892B8D5A6A00393E21 /* GeometryReaders.swift in Sources */,
@@ -457,9 +528,11 @@
 				F3C4578C2B79E230008D0447 /* WebView.swift in Sources */,
 				F30040282B5696950078A942 /* StateVariable.swift in Sources */,
 				F368A7AA2B69BAA000E292E6 /* ToggleSwitch.swift in Sources */,
+				F3F2C3C92B903ACE00BFB0E0 /* EscaptingClosure.swift in Sources */,
 				F343118E2B8D90FE00393E21 /* Masking.swift in Sources */,
 				F30040002B55F13A0078A942 /* Practices1.swift in Sources */,
 				F30040212B5637FB0078A942 /* ScrollView.swift in Sources */,
+				F3326A292B95733800F80939 /* FileManager.swift in Sources */,
 				F33F8F2B2B70AD1900C380B9 /* Badges.swift in Sources */,
 				F343118C2B8D72BA00393E21 /* MultipleSheets.swift in Sources */,
 				F39029E02B8B51CC00664F04 /* MatchedGeometry.swift in Sources */,
@@ -469,8 +542,11 @@
 				F360CA442B8C3E4A00992670 /* DragMoveSwipGesture.swift in Sources */,
 				F307DB262B6B0E82004FD838 /* Steps.swift in Sources */,
 				F360CA402B8C0B7A00992670 /* ZoomGesture.swift in Sources */,
+				F3F2C3C52B9021B900BFB0E0 /* WeakSelf.swift in Sources */,
 				F37723912B71F28100F1C215 /* SafeArea.swift in Sources */,
+				F3F2C3C32B8FFD7A00BFB0E0 /* BKThread.swift in Sources */,
 				F31237512B6C52A200DA0186 /* EnvironmentObject.swift in Sources */,
+				F3F2C3CD2B91609C00BFB0E0 /* APICalls.swift in Sources */,
 				F307DB282B6B1AEF004FD838 /* TabViews.swift in Sources */,
 				F3BA0E6B2B5D2A7B00B7C9E1 /* ContextMenu.swift in Sources */,
 				F3B737F42B5895170003DC6C /* PopOverSheet.swift in Sources */,
@@ -478,10 +554,14 @@
 				F32D42E12B57855300C7C26E /* PopupSheets.swift in Sources */,
 				F31237532B6C672900DA0186 /* AppStorages.swift in Sources */,
 				F3B1879F2B5BE9EA001C4F4D /* ListFunction.swift in Sources */,
+				F3F2C3CF2B917C7C00BFB0E0 /* DispatchGroups.swift in Sources */,
+				F33E364B2B9494A90029FB66 /* PublishSubscribCombine.swift in Sources */,
 				F360CA3E2B8BF8AE00992670 /* LongPressGesture.swift in Sources */,
 				F307DB302B6B5735004FD838 /* Models.swift in Sources */,
+				F3F2C3D12B91919600BFB0E0 /* CombineFramework.swift in Sources */,
 				F3077E392B651DC30056E227 /* TabBarCustom.swift in Sources */,
 				F30A750C2B54B9C100ECD4D5 /* Texts.swift in Sources */,
+				F3F2C3CB2B90412300BFB0E0 /* CodableDecodable.swift in Sources */,
 				F30A75102B5545B400ECD4D5 /* BackgroundAndOverlay.swift in Sources */,
 				F307DB2C2B6B50E2004FD838 /* AppearDisappear.swift in Sources */,
 				F3BA0E682B5D257B00B7C9E1 /* ActionSheetFunction.swift in Sources */,

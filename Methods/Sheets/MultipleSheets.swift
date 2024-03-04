@@ -14,9 +14,9 @@ struct RandomModel: Identifiable {
 
 // Problem: when click the button, New title always appear in first time
 // Solution:
-// 1. Use Bining in SheetScreen
+// 1. Use Binding in SheetScreen
 // 2. Use multiple sheets - sheet is not in the same hericy.
-// 3. use item
+// 3. use $item
 
 struct MultipleSheetsProblem: View {
     
@@ -46,6 +46,42 @@ struct MultipleSheetsProblem: View {
 }
 
 
+struct MultipleSheetsSolution1: View {
+    
+    @State private var selectedModel: RandomModel = RandomModel(title: "New title")
+    @State private var showSheet = false
+    
+    var body: some View {
+        VStack(spacing: 20) {
+            Button(action: {
+                selectedModel = RandomModel(title: "Title ABC")
+                showSheet.toggle()
+            }, label: {
+                Text("Button 1")
+            })
+            
+            Button(action: {
+                selectedModel = RandomModel(title: "Title DEF")
+                showSheet.toggle()
+            }, label: {
+                Text("Button 2")
+            })
+        }
+        .sheet(isPresented: $showSheet, content: {
+            SheetScreenBind(selectedModel: $selectedModel)
+        })
+    }
+}
+
+struct SheetScreenBind: View {
+    @Binding var selectedModel: RandomModel
+    
+    var body: some View {
+        Text(selectedModel.title)
+            .font(.title)
+    }
+}
+
 struct MultipleSheetsSolution2: View {
     @State private var selectedModel: RandomModel = RandomModel(title: "New title")
     @State private var showSheet = false
@@ -71,9 +107,6 @@ struct MultipleSheetsSolution2: View {
                 SheetScreen(selectedModel: RandomModel(title: "Title DEF"))
             })
         }
-//        .sheet(isPresented: $showSheet, content: {
-//            SheetScreen(selectedModel: selectedModel)
-//        })
     }
 }
 
@@ -109,7 +142,8 @@ struct SheetScreen: View {
 }
 
 #Preview {
-    //MultipleSheets()
+    //MultipleSheetsProblem()
+    //MultipleSheetsSolution1()
     //MultipleSheetsSolution2()
     MultipleSheetsSolution3()
 }

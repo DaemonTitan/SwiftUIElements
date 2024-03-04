@@ -15,7 +15,14 @@ struct UIElementsApp: App {
             //ZoomGestureSample()
             //Rotation()
             //DragMoveSwipGesture()
-            Notifcations()
+            //Notifcations()
+            //BKThread()
+            //WeakSelf()
+            //CodableDecodable()
+            //DispatchGroups()
+            //APICalls()
+            //CombineFramework()
+            FileManagers()
         }
     }
 }

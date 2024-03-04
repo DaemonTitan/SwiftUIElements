@@ -64,7 +64,7 @@ class ViewModelModification: ObservableObject {
     }
 
     func mapFilter() {
-        //mapArray = userArray.map({ $0.name ?? "" })
+        mapArray = userArray.map({ $0.name ?? "" })
 //        mapArray = userArray.map({ user -> String in
 //            return user.name ?? "Error"
 //        })
@@ -131,6 +131,6 @@ struct UserFilter: View {
 }
 
 #Preview {
-    DataManipulation()
-    //UserFilter()
+    //DataManipulation()
+    UserFilter()
 }
