@@ -22,7 +22,8 @@ struct UIElementsApp: App {
             //DispatchGroups()
             //APICalls()
             //CombineFramework()
-            FileManagers()
+            //FileManagers()
+            FileCache()
         }
     }
 }

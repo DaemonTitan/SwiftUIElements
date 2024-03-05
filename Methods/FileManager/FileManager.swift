@@ -11,7 +11,7 @@ class LocalFileManager {
     static let fileManagerInstance = LocalFileManager()
     private let folderName = "MyappImages"
     
-    init() {
+    private init() {
         createFolder()
     }
     
