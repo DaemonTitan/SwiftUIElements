@@ -10,9 +10,7 @@ import SwiftUI
 class CacheFileManager {
     static let cacheManagerInstance = CacheFileManager()
     
-    private init() {
-        
-    }
+    private init() {  }
     
     // Custom cache
     var imageCache: NSCache<NSString, UIImage> = {
@@ -70,10 +68,7 @@ class CacheViewModel: ObservableObject {
         } else {
             cacheMessage = "Image not found in cache"
         }
-        
-        
     }
-    
 }
 
 struct FileCache: View {

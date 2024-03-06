@@ -53,6 +53,10 @@ struct TimerOnReceive: View {
                 .minimumScaleFactor(0.1)
             
         }
+        .onReceive(timer, perform: { _ in
+            updateTimeremaining()
+        })
+        
         // Receive time and perfrom action on screen
 //        .onReceive(timer, perform: { timeValue in
 //            currentDate = timeValue
@@ -65,10 +69,6 @@ struct TimerOnReceive: View {
 //                count -= 1
 //            }
 //        })
-        
-        .onReceive(timer, perform: { _ in
-            updateTimeremaining()
-        })
         
         
     }
@@ -110,7 +110,6 @@ struct AnimationCount: View {
     //                count += 1
     //            }
             }
-
         })
     }
 }
@@ -119,7 +118,6 @@ struct TabViewCount: View {
     // Publish time
     private let timer = Timer.publish(every: 2.0, on: .main, in: .common).autoconnect()
     @State private var count: Int = 1
-    
     
     var body: some View {
         ZStack {
@@ -139,15 +137,11 @@ struct TabViewCount: View {
             })
             .frame(height: 200)
             .tabViewStyle(.page)
-            
-        
-
         }
         .onReceive(timer, perform: { _ in
             withAnimation(.smooth) {
                 count = count == 5 ? 1 : count + 1
             }
-
         })
     }
 }
