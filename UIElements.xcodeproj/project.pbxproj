@@ -87,13 +87,11 @@
 		F3D771BF2B96B10800B14C83 /* LayoutAlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D771BE2B96B10800B14C83 /* LayoutAlignmentGuide.swift */; };
 		F3D771C12B96B8F700B14C83 /* ViewVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D771C02B96B8F700B14C83 /* ViewVisualEffect.swift */; };
 		F3F0B6C02B6A56BF002BB5E3 /* DifferentColourPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F0B6BF2B6A56BF002BB5E3 /* DifferentColourPicker.swift */; };
-		F3F2C3C32B8FFD7A00BFB0E0 /* BKThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3C22B8FFD7A00BFB0E0 /* BKThread.swift */; };
 		F3F2C3C52B9021B900BFB0E0 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3C42B9021B900BFB0E0 /* WeakSelf.swift */; };
 		F3F2C3C72B9038B200BFB0E0 /* TypealiasName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3C62B9038B200BFB0E0 /* TypealiasName.swift */; };
 		F3F2C3C92B903ACE00BFB0E0 /* EscaptingClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3C82B903ACE00BFB0E0 /* EscaptingClosure.swift */; };
 		F3F2C3CB2B90412300BFB0E0 /* CodableDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3CA2B90412300BFB0E0 /* CodableDecodable.swift */; };
 		F3F2C3CD2B91609C00BFB0E0 /* APICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3CC2B91609C00BFB0E0 /* APICalls.swift */; };
-		F3F2C3CF2B917C7C00BFB0E0 /* DispatchGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3CE2B917C7C00BFB0E0 /* DispatchGroups.swift */; };
 		F3F2C3D12B91919600BFB0E0 /* CombineFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3D02B91919600BFB0E0 /* CombineFramework.swift */; };
 		F3F2C3D32B91D82300BFB0E0 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3D22B91D82300BFB0E0 /* TimerOnReceive.swift */; };
 /* End PBXBuildFile section */
@@ -180,13 +178,11 @@
 		F3D771BE2B96B10800B14C83 /* LayoutAlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAlignmentGuide.swift; sourceTree = "<group>"; };
 		F3D771C02B96B8F700B14C83 /* ViewVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewVisualEffect.swift; sourceTree = "<group>"; };
 		F3F0B6BF2B6A56BF002BB5E3 /* DifferentColourPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentColourPicker.swift; sourceTree = "<group>"; };
-		F3F2C3C22B8FFD7A00BFB0E0 /* BKThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BKThread.swift; sourceTree = "<group>"; };
 		F3F2C3C42B9021B900BFB0E0 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
 		F3F2C3C62B9038B200BFB0E0 /* TypealiasName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasName.swift; sourceTree = "<group>"; };
 		F3F2C3C82B903ACE00BFB0E0 /* EscaptingClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscaptingClosure.swift; sourceTree = "<group>"; };
 		F3F2C3CA2B90412300BFB0E0 /* CodableDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDecodable.swift; sourceTree = "<group>"; };
 		F3F2C3CC2B91609C00BFB0E0 /* APICalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICalls.swift; sourceTree = "<group>"; };
-		F3F2C3CE2B917C7C00BFB0E0 /* DispatchGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroups.swift; sourceTree = "<group>"; };
 		F3F2C3D02B91919600BFB0E0 /* CombineFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineFramework.swift; sourceTree = "<group>"; };
 		F3F2C3D22B91D82300BFB0E0 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -209,7 +205,6 @@
 				F3326A2A2B95879100F80939 /* FileManager */,
 				F33E364C2B9494B60029FB66 /* Combine */,
 				F3F2C3C12B8FFD5100BFB0E0 /* URLSession */,
-				F3F2C3C02B8FFD4800BFB0E0 /* Threads */,
 				F343118A2B8D729800393E21 /* Sheets */,
 				F360CA3C2B8BF7FD00992670 /* Navigations */,
 				F360CA3B2B8BF7CB00992670 /* Gesture */,
@@ -432,15 +427,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		F3F2C3C02B8FFD4800BFB0E0 /* Threads */ = {
-			isa = PBXGroup;
-			children = (
-				F3F2C3C22B8FFD7A00BFB0E0 /* BKThread.swift */,
-				F3F2C3CE2B917C7C00BFB0E0 /* DispatchGroups.swift */,
-			);
-			path = Threads;
-			sourceTree = "<group>";
-		};
 		F3F2C3C12B8FFD5100BFB0E0 /* URLSession */ = {
 			isa = PBXGroup;
 			children = (
@@ -564,7 +550,6 @@
 				F360CA402B8C0B7A00992670 /* ZoomGesture.swift in Sources */,
 				F3F2C3C52B9021B900BFB0E0 /* WeakSelf.swift in Sources */,
 				F37723912B71F28100F1C215 /* SafeArea.swift in Sources */,
-				F3F2C3C32B8FFD7A00BFB0E0 /* BKThread.swift in Sources */,
 				F31237512B6C52A200DA0186 /* EnvironmentObject.swift in Sources */,
 				F3F2C3CD2B91609C00BFB0E0 /* APICalls.swift in Sources */,
 				F307DB282B6B1AEF004FD838 /* TabViews.swift in Sources */,
@@ -574,7 +559,6 @@
 				F32D42E12B57855300C7C26E /* PopupSheets.swift in Sources */,
 				F31237532B6C672900DA0186 /* AppStorages.swift in Sources */,
 				F3B1879F2B5BE9EA001C4F4D /* ListFunction.swift in Sources */,
-				F3F2C3CF2B917C7C00BFB0E0 /* DispatchGroups.swift in Sources */,
 				F33E364B2B9494A90029FB66 /* PublishSubscribCombine.swift in Sources */,
 				F360CA3E2B8BF8AE00992670 /* LongPressGesture.swift in Sources */,
 				F307DB302B6B5735004FD838 /* Models.swift in Sources */,
