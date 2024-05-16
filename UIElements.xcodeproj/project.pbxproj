@@ -76,6 +76,7 @@
 		F37723952B71FF4500F1C215 /* Popovers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37723942B71FF4500F1C215 /* Popovers.swift */; };
 		F39029E02B8B51CC00664F04 /* MatchedGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39029DF2B8B51CC00664F04 /* MatchedGeometry.swift */; };
 		F39029E22B8B54FB00664F04 /* MatchGeoPractice1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39029E12B8B54FB00664F04 /* MatchGeoPractice1.swift */; };
+		F39D5D722BF642690022D44E /* DashCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D5D712BF642690022D44E /* DashCircle.swift */; };
 		F3B1879F2B5BE9EA001C4F4D /* ListFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B1879E2B5BE9EA001C4F4D /* ListFunction.swift */; };
 		F3B737F42B5895170003DC6C /* PopOverSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B737F32B5895170003DC6C /* PopOverSheet.swift */; };
 		F3BA0E682B5D257B00B7C9E1 /* ActionSheetFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BA0E672B5D257B00B7C9E1 /* ActionSheetFunction.swift */; };
@@ -96,6 +97,8 @@
 		F3F2C3D32B91D82300BFB0E0 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3D22B91D82300BFB0E0 /* TimerOnReceive.swift */; };
 		F3F41F072BF598DE00ED3EFB /* ActivityRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F41F062BF598DE00ED3EFB /* ActivityRings.swift */; };
 		F3F41F092BF5C6F900ED3EFB /* ActiveRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F41F082BF5C6F800ED3EFB /* ActiveRingView.swift */; };
+		F3F41F0D2BF5D2C000ED3EFB /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F41F0C2BF5D2C000ED3EFB /* ProgressRingView.swift */; };
+		F3F41F0F2BF5E85F00ED3EFB /* DarkCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F41F0E2BF5E85F00ED3EFB /* DarkCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,6 +172,7 @@
 		F37723942B71FF4500F1C215 /* Popovers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popovers.swift; sourceTree = "<group>"; };
 		F39029DF2B8B51CC00664F04 /* MatchedGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometry.swift; sourceTree = "<group>"; };
 		F39029E12B8B54FB00664F04 /* MatchGeoPractice1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGeoPractice1.swift; sourceTree = "<group>"; };
+		F39D5D712BF642690022D44E /* DashCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashCircle.swift; sourceTree = "<group>"; };
 		F3B1879E2B5BE9EA001C4F4D /* ListFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFunction.swift; sourceTree = "<group>"; };
 		F3B737F32B5895170003DC6C /* PopOverSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverSheet.swift; sourceTree = "<group>"; };
 		F3BA0E672B5D257B00B7C9E1 /* ActionSheetFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetFunction.swift; sourceTree = "<group>"; };
@@ -189,6 +193,8 @@
 		F3F2C3D22B91D82300BFB0E0 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
 		F3F41F062BF598DE00ED3EFB /* ActivityRings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRings.swift; sourceTree = "<group>"; };
 		F3F41F082BF5C6F800ED3EFB /* ActiveRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRingView.swift; sourceTree = "<group>"; };
+		F3F41F0C2BF5D2C000ED3EFB /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
+		F3F41F0E2BF5E85F00ED3EFB /* DarkCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,7 +274,7 @@
 				F300401D2B5637AE0078A942 /* Methods */,
 				F30040222B564ED90078A942 /* Layout */,
 				F30A74FA2B54A2ED00ECD4D5 /* UIElements */,
-				F3F41F052BF598CC00ED3EFB /* Rings */,
+				F3F41F052BF598CC00ED3EFB /* Prgoress Rings */,
 				F30A74F92B54A2ED00ECD4D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -441,13 +447,32 @@
 			path = URLSession;
 			sourceTree = "<group>";
 		};
-		F3F41F052BF598CC00ED3EFB /* Rings */ = {
+		F3F41F052BF598CC00ED3EFB /* Prgoress Rings */ = {
+			isa = PBXGroup;
+			children = (
+				F3F41F0B2BF5D2A100ED3EFB /* Progress Ring */,
+				F3F41F0A2BF5CF5000ED3EFB /* Activity Ring */,
+			);
+			path = "Prgoress Rings";
+			sourceTree = "<group>";
+		};
+		F3F41F0A2BF5CF5000ED3EFB /* Activity Ring */ = {
 			isa = PBXGroup;
 			children = (
 				F3F41F062BF598DE00ED3EFB /* ActivityRings.swift */,
 				F3F41F082BF5C6F800ED3EFB /* ActiveRingView.swift */,
 			);
-			path = Rings;
+			path = "Activity Ring";
+			sourceTree = "<group>";
+		};
+		F3F41F0B2BF5D2A100ED3EFB /* Progress Ring */ = {
+			isa = PBXGroup;
+			children = (
+				F3F41F0C2BF5D2C000ED3EFB /* ProgressRingView.swift */,
+				F3F41F0E2BF5E85F00ED3EFB /* DarkCircle.swift */,
+				F39D5D712BF642690022D44E /* DashCircle.swift */,
+			);
+			path = "Progress Ring";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -549,10 +574,12 @@
 				F3F41F072BF598DE00ED3EFB /* ActivityRings.swift in Sources */,
 				F30040282B5696950078A942 /* StateVariable.swift in Sources */,
 				F368A7AA2B69BAA000E292E6 /* ToggleSwitch.swift in Sources */,
+				F39D5D722BF642690022D44E /* DashCircle.swift in Sources */,
 				F3F2C3C92B903ACE00BFB0E0 /* EscaptingClosure.swift in Sources */,
 				F30040002B55F13A0078A942 /* Practices1.swift in Sources */,
 				F30040212B5637FB0078A942 /* ScrollView.swift in Sources */,
 				F3326A292B95733800F80939 /* FileManager.swift in Sources */,
+				F3F41F0F2BF5E85F00ED3EFB /* DarkCircle.swift in Sources */,
 				F33AEAC72B9838E7009A2A0F /* HashableData.swift in Sources */,
 				F33F8F2B2B70AD1900C380B9 /* Badges.swift in Sources */,
 				F343118C2B8D72BA00393E21 /* MultipleSheets.swift in Sources */,
@@ -585,6 +612,7 @@
 				F3F2C3CB2B90412300BFB0E0 /* CodableDecodable.swift in Sources */,
 				F30A75102B5545B400ECD4D5 /* BackgroundAndOverlay.swift in Sources */,
 				F307DB2C2B6B50E2004FD838 /* AppearDisappear.swift in Sources */,
+				F3F41F0D2BF5D2C000ED3EFB /* ProgressRingView.swift in Sources */,
 				F3BA0E682B5D257B00B7C9E1 /* ActionSheetFunction.swift in Sources */,
 				F30A74FC2B54A2ED00ECD4D5 /* UIElementsApp.swift in Sources */,
 				F30040022B55F51C0078A942 /* Practise2.swift in Sources */,
