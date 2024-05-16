@@ -94,6 +94,8 @@
 		F3F2C3CD2B91609C00BFB0E0 /* APICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3CC2B91609C00BFB0E0 /* APICalls.swift */; };
 		F3F2C3D12B91919600BFB0E0 /* CombineFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3D02B91919600BFB0E0 /* CombineFramework.swift */; };
 		F3F2C3D32B91D82300BFB0E0 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2C3D22B91D82300BFB0E0 /* TimerOnReceive.swift */; };
+		F3F41F072BF598DE00ED3EFB /* ActivityRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F41F062BF598DE00ED3EFB /* ActivityRings.swift */; };
+		F3F41F092BF5C6F900ED3EFB /* ActiveRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F41F082BF5C6F800ED3EFB /* ActiveRingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -185,6 +187,8 @@
 		F3F2C3CC2B91609C00BFB0E0 /* APICalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICalls.swift; sourceTree = "<group>"; };
 		F3F2C3D02B91919600BFB0E0 /* CombineFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineFramework.swift; sourceTree = "<group>"; };
 		F3F2C3D22B91D82300BFB0E0 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
+		F3F41F062BF598DE00ED3EFB /* ActivityRings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRings.swift; sourceTree = "<group>"; };
+		F3F41F082BF5C6F800ED3EFB /* ActiveRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +268,7 @@
 				F300401D2B5637AE0078A942 /* Methods */,
 				F30040222B564ED90078A942 /* Layout */,
 				F30A74FA2B54A2ED00ECD4D5 /* UIElements */,
+				F3F41F052BF598CC00ED3EFB /* Rings */,
 				F30A74F92B54A2ED00ECD4D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -436,6 +441,15 @@
 			path = URLSession;
 			sourceTree = "<group>";
 		};
+		F3F41F052BF598CC00ED3EFB /* Rings */ = {
+			isa = PBXGroup;
+			children = (
+				F3F41F062BF598DE00ED3EFB /* ActivityRings.swift */,
+				F3F41F082BF5C6F800ED3EFB /* ActiveRingView.swift */,
+			);
+			path = Rings;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -532,6 +546,7 @@
 				F30040262B56883A0078A942 /* ScreenSafeArea.swift in Sources */,
 				F3008FBA2B7246E6009FF36D /* AnyLayouts.swift in Sources */,
 				F3C4578C2B79E230008D0447 /* WebView.swift in Sources */,
+				F3F41F072BF598DE00ED3EFB /* ActivityRings.swift in Sources */,
 				F30040282B5696950078A942 /* StateVariable.swift in Sources */,
 				F368A7AA2B69BAA000E292E6 /* ToggleSwitch.swift in Sources */,
 				F3F2C3C92B903ACE00BFB0E0 /* EscaptingClosure.swift in Sources */,
@@ -582,6 +597,7 @@
 				F37723932B71FC8300F1C215 /* AnimationUpgarde.swift in Sources */,
 				F32D42DF2B57557700C7C26E /* ViewTransition.swift in Sources */,
 				F33F8F232B709D8600C380B9 /* AsynicImages.swift in Sources */,
+				F3F41F092BF5C6F900ED3EFB /* ActiveRingView.swift in Sources */,
 				F32D42E32B57950F00C7C26E /* UnevenShapes.swift in Sources */,
 				F360CA422B8C2A9700992670 /* Rotation.swift in Sources */,
 				F300401F2B5637D10078A942 /* ForEachLoop.swift in Sources */,
