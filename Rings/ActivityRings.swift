@@ -99,6 +99,7 @@ struct ActivityRings: View {
                 .shadow(color: circleShadow, radius: ringThickness / 5)
         }
         .clipShape(
+            /// Add another circle on to show leading circle on the line
             Circle()
                 .rotation(clippedCircleRotation)
                 .trim(from: 0, to: 0.1)
