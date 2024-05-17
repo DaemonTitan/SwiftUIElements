@@ -16,24 +16,27 @@ struct ActivityRings: View {
     var ringThickness: CGFloat
     var colorGradient: Gradient
     
-    //
     private var rotationDegree: Angle {
         .degrees(-90)
     }
     
+    // Set angle degrees for Angular Gradient
     private var endAngle: Angle {
         .degrees(completionRate * 360 - 90)
     }
     
+    // Set circle stroke style
     private var strokeStyle: StrokeStyle {
         /// Trimed circle stocke with round line cap and lineWidth
         StrokeStyle(lineWidth: ringThickness, lineCap: .round)
     }
     
+    // Set angular gradient for circle stroke
     private var gradientEffect: AngularGradient {
         AngularGradient.init(gradient: colorGradient, center: .center, startAngle: rotationDegree, endAngle: endAngle)
     }
     
+    // Set circle fill color
     private var gradientEndColor: Color {
         colorGradient.stops.indices.contains(1) ? colorGradient.stops[1].color : Color.clear
     }
@@ -42,12 +45,14 @@ struct ActivityRings: View {
         .black.opacity(0.4)
     }
     
+    // Set circle overlay position for GeometryReader use
     private var overlayPosition: (_ with: CGFloat, _ height: CGFloat) -> CGPoint {
         return { width, height in
             CGPoint(x: width / 2, y: height / 2)
         }
     }
     
+    // Set circle offset position for GeometryReader use
     private var overlayOffset: (_ with: CGFloat, _ height: CGFloat) -> CGFloat {
         return { width, height in
             min(width, height) / 2
@@ -62,6 +67,7 @@ struct ActivityRings: View {
         .degrees(-90 + completionRate * 360 )
     }
     
+    // Base circle
     var body: some View {
         ZStack {
             // background circle
@@ -91,7 +97,8 @@ struct ActivityRings: View {
     var overlayCircle: some View {
         /// Use Geometry Reader to get the size of top layer ring position.
         GeometryReader { geo in
-            Circle().fill(gradientEndColor)
+            Circle()
+                .fill(gradientEndColor)
                 .frame(width: ringThickness, height: ringThickness)
                 .position(overlayPosition(geo.size.width, geo.size.height))
                 .offset(x: overlayOffset(geo.size.width, geo.size.height))
