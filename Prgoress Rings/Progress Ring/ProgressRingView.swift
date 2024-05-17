@@ -10,7 +10,7 @@ import SwiftUI
 class TimerManager: ObservableObject {
     @Published var displayValue = 0.0
     @Published var showValue = false
-    var value = 0.55 /// Set default targed value for prgress ring to the number (0.75 * 100) = 75 %
+    var value = 0.56 /// Set default targed value for prgress ring to the number (0.75 * 100) = 75 %
     
     func startTimer() {
         Timer.scheduledTimer(withTimeInterval: 0.02, repeats: true) { timer in

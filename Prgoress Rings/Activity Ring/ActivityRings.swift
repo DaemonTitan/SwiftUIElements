@@ -119,7 +119,7 @@ struct ActivityRings: View {
     ActivityRings(icon: "arrow.up",
                   BG: .cyan,
                   WHeight: 300,
-                  completionRate: 1,
+                  completionRate: 0.5,
                   ringThickness: 30,
                   colorGradient: Gradient(colors: [Color(uiColor: .cyan), Color(uiColor: .green)]))
     .preferredColorScheme(.dark)
