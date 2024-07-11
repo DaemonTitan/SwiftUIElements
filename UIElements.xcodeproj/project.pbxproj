@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADC7C4442C3CA99E00ACBF73 /* DrawShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */; };
 		F30040002B55F13A0078A942 /* Practices1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3003FFF2B55F13A0078A942 /* Practices1.swift */; };
 		F30040022B55F51C0078A942 /* Practise2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30040012B55F51C0078A942 /* Practise2.swift */; };
 		F300401F2B5637D10078A942 /* ForEachLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F300401E2B5637D10078A942 /* ForEachLoop.swift */; };
@@ -102,6 +103,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShapes.swift; sourceTree = "<group>"; };
 		F3003FFF2B55F13A0078A942 /* Practices1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practices1.swift; sourceTree = "<group>"; };
 		F30040012B55F51C0078A942 /* Practise2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practise2.swift; sourceTree = "<group>"; };
 		F300401E2B5637D10078A942 /* ForEachLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoop.swift; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 				F30A750B2B54B9C100ECD4D5 /* Texts.swift */,
 				F30A750D2B550E9800ECD4D5 /* Shapes.swift */,
 				F32D42E22B57950F00C7C26E /* UnevenShapes.swift */,
+				ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */,
 				F30A750F2B5545B400ECD4D5 /* BackgroundAndOverlay.swift */,
 				F3077E312B5FCE470056E227 /* Labels.swift */,
 				F368A7A52B69B56A00E292E6 /* FormsSections.swift */,
@@ -598,6 +601,7 @@
 				F3BA0E6B2B5D2A7B00B7C9E1 /* ContextMenu.swift in Sources */,
 				F3B737F42B5895170003DC6C /* PopOverSheet.swift in Sources */,
 				F30A750E2B550E9800ECD4D5 /* Shapes.swift in Sources */,
+				ADC7C4442C3CA99E00ACBF73 /* DrawShapes.swift in Sources */,
 				F32D42E12B57855300C7C26E /* PopupSheets.swift in Sources */,
 				F31237532B6C672900DA0186 /* AppStorages.swift in Sources */,
 				F3B1879F2B5BE9EA001C4F4D /* ListFunction.swift in Sources */,
