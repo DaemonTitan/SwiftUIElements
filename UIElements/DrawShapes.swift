@@ -60,18 +60,18 @@ struct DrawShapes: View {
 //                .stroke(.red, style: StrokeStyle(lineWidth: 10))
 //                .frame(width: 200, height: 100)
             
-            CustomShape1(diameter: 40)
-                    .stroke(.red, style: StrokeStyle(lineWidth: 10))
-                //.fill(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
-                    .frame(width: 330, height: 250)
-            
-            RoundedTriangle(
-                        point1: CGPoint(x: 50, y: 150),
-                        point2: CGPoint(x: 150, y: 150),
-                        point3: CGPoint(x: 100, y: 50),
-                        radius: 10
-                    )
-            .stroke(.red, style: StrokeStyle(lineWidth: 10))
+//            CustomShape1(diameter: 40)
+//                    .stroke(.red, style: StrokeStyle(lineWidth: 10))
+//                //.fill(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
+//                    .frame(width: 330, height: 250)
+//            
+//            RoundedTriangle(
+//                        point1: CGPoint(x: 50, y: 150),
+//                        point2: CGPoint(x: 150, y: 150),
+//                        point3: CGPoint(x: 100, y: 50),
+//                        radius: 10
+//                    )
+//            .stroke(.red, style: StrokeStyle(lineWidth: 10))
             
             
             CustomShape2(point1: CGPoint(x: 50, y: 170),
@@ -81,6 +81,8 @@ struct DrawShapes: View {
                          radius: 40)
             .stroke(.red, style: StrokeStyle(lineWidth: 10))
             .frame(width: 400, height: 300)
+            
+            //RoundView()
 
         }
     }
@@ -454,6 +456,107 @@ struct CustomShape2: Shape {
             path.addLine(to: midPoint)
         }
     }
+}
+
+// app
+struct CoordinateLines: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        
+        // Draw X axis
+        path.move(to: CGPoint(x: rect.minX, y: rect.midY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.midY))
+        
+        // Draw Y axis
+        path.move(to: CGPoint(x: rect.midX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.midX, y: rect.maxY))
+        
+        return path
+    }
+}
+
+struct RoundedSquare: Shape {
+    var point1: CGPoint
+    var point2: CGPoint
+    var point3: CGPoint
+    var point4: CGPoint
+    var radius: CGFloat
+    
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        
+        // Calculate midPoint (not used in square, but could be for custom logic)
+        let midPoint = CGPoint(x: 0.5 * (point1.x + point3.x), y: 0.5 * (point1.y + point3.y))
+        
+        // Move to point1
+        path.move(to: point1)
+        
+        // Add arcs to points
+        path.addArc(tangent1End: point2, tangent2End: point3, radius: radius)
+        path.addArc(tangent1End: point3, tangent2End: point4, radius: radius)
+        path.addArc(tangent1End: point4, tangent2End: point1, radius: radius)
+        path.addArc(tangent1End: point1, tangent2End: point2, radius: radius)
+        
+        // Close the path
+        path.closeSubpath()
+        
+        return path
+    }
+}
+
+struct RoundView: View {
+    @State private var point1 = CGPoint(x: 50, y: 150)
+    @State private var point2 = CGPoint(x: 150, y: 150)
+    @State private var point3 = CGPoint(x: 150, y: 50)
+    @State private var point4 = CGPoint(x: 50, y: 50)
+    @State private var radius: CGFloat = 20
+    
+    var body: some View {
+            VStack {
+                ZStack {
+                    CoordinateLines()
+                        .stroke(Color.gray, lineWidth: 1)
+                        .frame(width: 200, height: 200)
+                    
+                    RoundedSquare(point1: point1, point2: point2, point3: point3, point4: point4, radius: radius)
+                        .stroke(Color.blue, lineWidth: 2)
+                        .frame(width: 200, height: 200)
+                        .background(Color.gray.opacity(0.2))
+                }
+                
+                HStack {
+                    VStack {
+                        Text("Point 1")
+                        TextField("X", value: $point1.x, formatter: NumberFormatter())
+                        TextField("Y", value: $point1.y, formatter: NumberFormatter())
+                    }
+                    
+                    VStack {
+                        Text("Point 2")
+                        TextField("X", value: $point2.x, formatter: NumberFormatter())
+                        TextField("Y", value: $point2.y, formatter: NumberFormatter())
+                    }
+                    
+                    VStack {
+                        Text("Point 3")
+                        TextField("X", value: $point3.x, formatter: NumberFormatter())
+                        TextField("Y", value: $point3.y, formatter: NumberFormatter())
+                    }
+                    
+                    VStack {
+                        Text("Point 4")
+                        TextField("X", value: $point4.x, formatter: NumberFormatter())
+                        TextField("Y", value: $point4.y, formatter: NumberFormatter())
+                    }
+                }
+                .padding()
+                
+                Slider(value: $radius, in: 0...50) {
+                    Text("Radius")
+                }
+            }
+            .padding()
+        }
 }
 
 #Preview {

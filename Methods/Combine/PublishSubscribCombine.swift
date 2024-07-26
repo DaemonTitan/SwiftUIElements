@@ -37,8 +37,9 @@ class PSViewModel: ObservableObject {
     
     func textFieldScribe() {
         $addText
-        // common used in Textfield in searching. If map has complex logic, use debounce
+        // common used in Textfield in searching. If map has complex logic, use debounce to delay the action unil user completes the type in text field.
             .debounce(for: .seconds(0.5), scheduler: DispatchQueue.main)
+            // Use map to take text and returns Bool value.
             .map { text -> Bool in
                 if  text.count > 3 {
                     return true

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD5FEAFB2C53157C008F6C0D /* ThrottleAndDebounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FEAFA2C53157C008F6C0D /* ThrottleAndDebounce.swift */; };
 		ADC7C4442C3CA99E00ACBF73 /* DrawShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */; };
 		F30040002B55F13A0078A942 /* Practices1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3003FFF2B55F13A0078A942 /* Practices1.swift */; };
 		F30040022B55F51C0078A942 /* Practise2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30040012B55F51C0078A942 /* Practise2.swift */; };
@@ -103,6 +104,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD5FEAFA2C53157C008F6C0D /* ThrottleAndDebounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrottleAndDebounce.swift; sourceTree = "<group>"; };
 		ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShapes.swift; sourceTree = "<group>"; };
 		F3003FFF2B55F13A0078A942 /* Practices1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practices1.swift; sourceTree = "<group>"; };
 		F30040012B55F51C0078A942 /* Practise2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practise2.swift; sourceTree = "<group>"; };
@@ -348,6 +350,7 @@
 			children = (
 				F3F2C3D22B91D82300BFB0E0 /* TimerOnReceive.swift */,
 				F33E364A2B9494A90029FB66 /* PublishSubscribCombine.swift */,
+				AD5FEAFA2C53157C008F6C0D /* ThrottleAndDebounce.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -622,6 +625,7 @@
 				F30040022B55F51C0078A942 /* Practise2.swift in Sources */,
 				F33F8F272B70A42000C380B9 /* TextSelection.swift in Sources */,
 				F32D42DD2B5749C000C7C26E /* Animation.swift in Sources */,
+				AD5FEAFB2C53157C008F6C0D /* ThrottleAndDebounce.swift in Sources */,
 				F39029E22B8B54FB00664F04 /* MatchGeoPractice1.swift in Sources */,
 				F3D771C12B96B8F700B14C83 /* ViewVisualEffect.swift in Sources */,
 				F377238B2B719E6300F1C215 /* FocusMode.swift in Sources */,
