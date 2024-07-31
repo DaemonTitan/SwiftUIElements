@@ -35,7 +35,7 @@ struct ThrottleAndDebounce: View {
             .onReceive(
                 viewModel.$throttleUserInput.throttle(for: 1,
                                               scheduler: RunLoop.main,
-                                              latest: true),
+                                              latest: false),
                 perform: { searchTerm in
                     viewModel.throttleExecutionTimes += 1
             })

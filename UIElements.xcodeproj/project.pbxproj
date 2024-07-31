@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD5FEAFB2C53157C008F6C0D /* ThrottleAndDebounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FEAFA2C53157C008F6C0D /* ThrottleAndDebounce.swift */; };
+		AD5FEB082C58A7A4008F6C0D /* ViewTransition1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FEB072C58A7A4008F6C0D /* ViewTransition1.swift */; };
 		ADC7C4442C3CA99E00ACBF73 /* DrawShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */; };
 		F30040002B55F13A0078A942 /* Practices1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3003FFF2B55F13A0078A942 /* Practices1.swift */; };
 		F30040022B55F51C0078A942 /* Practise2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30040012B55F51C0078A942 /* Practise2.swift */; };
@@ -105,6 +106,7 @@
 
 /* Begin PBXFileReference section */
 		AD5FEAFA2C53157C008F6C0D /* ThrottleAndDebounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrottleAndDebounce.swift; sourceTree = "<group>"; };
+		AD5FEB072C58A7A4008F6C0D /* ViewTransition1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransition1.swift; sourceTree = "<group>"; };
 		ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShapes.swift; sourceTree = "<group>"; };
 		F3003FFF2B55F13A0078A942 /* Practices1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practices1.swift; sourceTree = "<group>"; };
 		F30040012B55F51C0078A942 /* Practise2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practise2.swift; sourceTree = "<group>"; };
@@ -402,6 +404,7 @@
 			children = (
 				F39029E32B8B550700664F04 /* Practices */,
 				F32D42DE2B57557700C7C26E /* ViewTransition.swift */,
+				AD5FEB072C58A7A4008F6C0D /* ViewTransition1.swift */,
 				F32D42DC2B5749C000C7C26E /* Animation.swift */,
 				F37723922B71FC8300F1C215 /* AnimationUpgarde.swift */,
 				F39029DF2B8B51CC00664F04 /* MatchedGeometry.swift */,
@@ -636,6 +639,7 @@
 				F3F41F092BF5C6F900ED3EFB /* ActiveRingView.swift in Sources */,
 				F32D42E32B57950F00C7C26E /* UnevenShapes.swift in Sources */,
 				F360CA422B8C2A9700992670 /* Rotation.swift in Sources */,
+				AD5FEB082C58A7A4008F6C0D /* ViewTransition1.swift in Sources */,
 				F300401F2B5637D10078A942 /* ForEachLoop.swift in Sources */,
 				F33F8F292B70AA8E00C380B9 /* ListSwipAction.swift in Sources */,
 				F368A7AC2B69FF9F00E292E6 /* Pickers.swift in Sources */,
