@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AD5FEAFB2C53157C008F6C0D /* ThrottleAndDebounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FEAFA2C53157C008F6C0D /* ThrottleAndDebounce.swift */; };
 		AD5FEB082C58A7A4008F6C0D /* ViewTransition1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FEB072C58A7A4008F6C0D /* ViewTransition1.swift */; };
+		AD5FEB0D2C61C38B008F6C0D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FEB0C2C61C38B008F6C0D /* ListView.swift */; };
 		ADC7C4442C3CA99E00ACBF73 /* DrawShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */; };
 		F30040002B55F13A0078A942 /* Practices1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3003FFF2B55F13A0078A942 /* Practices1.swift */; };
 		F30040022B55F51C0078A942 /* Practise2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30040012B55F51C0078A942 /* Practise2.swift */; };
@@ -107,6 +108,7 @@
 /* Begin PBXFileReference section */
 		AD5FEAFA2C53157C008F6C0D /* ThrottleAndDebounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrottleAndDebounce.swift; sourceTree = "<group>"; };
 		AD5FEB072C58A7A4008F6C0D /* ViewTransition1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransition1.swift; sourceTree = "<group>"; };
+		AD5FEB0C2C61C38B008F6C0D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShapes.swift; sourceTree = "<group>"; };
 		F3003FFF2B55F13A0078A942 /* Practices1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practices1.swift; sourceTree = "<group>"; };
 		F30040012B55F51C0078A942 /* Practise2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practise2.swift; sourceTree = "<group>"; };
@@ -214,6 +216,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD5FEB0B2C61C2F6008F6C0D /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F3B1879E2B5BE9EA001C4F4D /* ListFunction.swift */,
+				AD5FEB0C2C61C38B008F6C0D /* ListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		F300401D2B5637AE0078A942 /* Methods */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,7 +242,6 @@
 				F32D42D62B57384000C7C26E /* ExtractSubView.swift */,
 				F32D42D82B573EC900C7C26E /* BindingProperty.swift */,
 				F32D42DA2B57461300C7C26E /* Condition.swift */,
-				F3B1879E2B5BE9EA001C4F4D /* ListFunction.swift */,
 				F32F7FC62B5C9EBE0083D4D9 /* AlertFunction.swift */,
 				F3BA0E6A2B5D2A7B00B7C9E1 /* ContextMenu.swift */,
 				F30040272B5696950078A942 /* StateVariable.swift */,
@@ -255,6 +265,7 @@
 		F30040222B564ED90078A942 /* Layout */ = {
 			isa = PBXGroup;
 			children = (
+				AD5FEB0B2C61C2F6008F6C0D /* List */,
 				F3C457892B79DD28008D0447 /* Practices */,
 				F30040202B5637FB0078A942 /* ScrollView.swift */,
 				F30040232B564F050078A942 /* ColumnAndGrid.swift */,
@@ -564,6 +575,7 @@
 				F33F8F252B70A1E600C380B9 /* BackgroundMaterials.swift in Sources */,
 				F37723952B71FF4500F1C215 /* Popovers.swift in Sources */,
 				F368A7A62B69B56A00E292E6 /* FormsSections.swift in Sources */,
+				AD5FEB0D2C61C38B008F6C0D /* ListView.swift in Sources */,
 				F3C4578E2B79E251008D0447 /* WebContentView.swift in Sources */,
 				F34311902B8DEE6800393E21 /* Notifcations.swift in Sources */,
 				F32D42D52B5734C900C7C26E /* ExtractFunction.swift in Sources */,
