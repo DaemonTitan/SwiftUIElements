@@ -32,8 +32,8 @@ var fruitsArray: [String] = [
 
 struct ListView: View {
     var body: some View {
-        NavigationStackSheetScreen()
-        //NavigationStackSheetToggle()
+        //NavigationStackSheetScreen()
+        NavigationStackSheetToggle()
         //NavigationStackNavigationLink()
         //CustomiseSheetPopup()
     }
@@ -187,11 +187,22 @@ struct ItemView2: View {
         NavigationStack {
             VStack {
                 Text("\(itemName.name)").bold()
+                Button(action: {
+                    
+                }, label: {
+                    Text("Save")
+                        .foregroundStyle(.blue)
+                })
+                
+                Button(action: {
+                    dismisss()
+                }, label: {
+                    Text("Close")
+                        .foregroundStyle(.red)
+                })
             }
         }
-        .onTapGesture {
-            dismisss()
-        }
+        
     }
 }
 
