@@ -52,6 +52,7 @@ struct SheetButton: View {
         })
         .sheet(isPresented: $showSheet, content: {
             View2()
+                .presentationBackground(Material.ultraThinMaterial)
         })
 
     }

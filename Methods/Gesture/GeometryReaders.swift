@@ -9,19 +9,27 @@ import SwiftUI
 
 struct GeometryReaders: View {
     var body: some View {
-        // When app requres rotation, use Geometry Reader. It will slow down performance
+        // When app requres rotation, use Geometry Reader to get screen size. It will slow down performance
         GeometryReader { geometry in
             ZStack {
                 HStack(spacing: 0) {
-                    
-                    Rectangle().fill(Color.red)
-                    // Sets red rectangle width is 2 / 3 of screen size dyanmically
-                        .frame(width: geometry.size.width * 0.6666)
-                    Rectangle().fill(Color.blue)
-                    
+                    ZStack {
+                        Rectangle().fill(Color.red)
+                        // Sets red rectangle width is 2 / 3 of screen size dyanmically
+                            .frame(width: geometry.size.width * 0.6666)
+                        Text("Red Rectangle Width: \n \(geometry.size.width * 0.6666)")
+                    }
+                    ZStack {
+                        Rectangle().fill(Color.blue)
+                        Text("Red Rectangle Width: \(geometry.size.width - geometry.size.width * 0.6666)")
+                    }
                 }
                 .ignoresSafeArea()
-                Text("\(geometry.size.width)")
+                VStack {
+                    Text("Screen width: \(geometry.size.width)")
+                    Text("Screen Height: \(geometry.size.height)")
+                    Spacer()
+                }
             }
         }
     }
@@ -30,17 +38,40 @@ struct GeometryReaders: View {
 struct GeometryReaders1: View {
     var body: some View {
         GeometryReader { geometry in
-            HStack(spacing: 0) {
-                Text("Left")
-                    .font(.largeTitle)
-                    .foregroundStyle(.black)
-                    .frame(width: geometry.size.width * 0.33)
-                    .background(.yellow)
-                Text("Right")
-                    .font(.largeTitle)
-                    .foregroundStyle(.black)
-                    .frame(width: geometry.size.width * 0.67)
-                    .background(.orange)
+            VStack {
+                HStack(spacing: 0) {
+                    Text("Left")
+                        .font(.largeTitle)
+                        .foregroundStyle(.black)
+                        .frame(width: geometry.size.width * 0.33)
+                        .background(.yellow)
+                    Text("Right")
+                        .font(.largeTitle)
+                        .foregroundStyle(.black)
+                        .frame(width: geometry.size.width * 0.67)
+                        .background(.orange)
+                }
+                
+                Spacer()
+                Spacer()
+                
+                HStack(spacing: 0) {
+                    Text("Left")
+                        .font(.largeTitle)
+                        .foregroundStyle(.black)
+                        .frame(width: geometry.size.width / 3)
+                        .background(.yellow)
+                    Text("Center")
+                        .font(.largeTitle)
+                        .foregroundStyle(.black)
+                        .frame(width: geometry.size.width / 3)
+                        .background(.orange)
+                    Text("Right")
+                        .font(.largeTitle)
+                        .foregroundStyle(.black)
+                        .frame(width: geometry.size.width / 3)
+                        .background(.yellow)
+                }
             }
         }
         .frame(height: 50)
@@ -86,5 +117,6 @@ struct GeometryReaders2: View {
 
 #Preview {
     //GeometryReaders()
-    GeometryReaders2()
+    GeometryReaders1()
+    //GeometryReaders2()
 }
