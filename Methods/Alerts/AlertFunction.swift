@@ -13,10 +13,13 @@ struct AlertFunction: View {
     @State var showAlert2: Bool = false
     @State var showAlert3: Bool = false
     @State var showAlert4: Bool = false
+    @State var showAlert5: Bool = false
     let alertTitle: String = "Error message"
     let alertMessage: String = "Lorem ipsum dolor sit amet"
     @State var article = Article(title: "Error message",
                                  message: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.")
+    @State private var error: MyAppError = .noNetwork
+    @State private var text: String = ""
     
     var body: some View {
         ZStack {
@@ -66,6 +69,49 @@ struct AlertFunction: View {
                 } message: { article in
                     Text(article.message)
                 }
+                
+                // Alert 4
+                Button(action: {
+                    error = .invalidUserName
+                    showAlert4.toggle()
+                }, label: {
+                    Text("Alert4 Log in")
+                })
+                .padding()
+                .alert(isPresented: $showAlert4, error: error) { error in
+                    if error == .invalidUserName {
+                        TextField("User name", text: $text)
+                        Button(action: {
+                            
+                        }, label: {
+                            Text("Submit")
+                        })
+                        
+                        Button(action: {
+                            
+                        }, label: {
+                            Text("Cancel")
+                        })
+                    }
+                } message: { error in
+                    Text(error.failureReason)
+                }
+                
+                
+                // Alert 5
+                Button(action: {
+                    showAlert5.toggle()
+                }, label: {
+                    Text("Alert5")
+                })
+                .padding()
+                .alert(isPresented: $showAlert5, error: error) { error in
+                    
+                } message: { error in
+                    Text(error.failureReason)
+                }
+
+
             }
         }
     }
@@ -77,7 +123,34 @@ struct Article: Identifiable {
     let message: String
 }
 
+enum MyAppError: LocalizedError {
+    case invalidUserName
+    case invalidPassword
+    case noNetwork
+    
+    var errorDescription: String? {
+        switch self {
+        case .invalidUserName:
+            "Invalid Username"
+        case .invalidPassword:
+            "Invalid Password"
+        case .noNetwork:
+            "No Network"
+        }
+    }
+    
+    var failureReason: String {
+        switch self {
+        case .invalidUserName:
+            "User name is incorrect"
+        case .invalidPassword:
+            "Passwird is incorrect"
+        case .noNetwork:
+            "Can not connect to network"
+        }
+    }
+}
+
 #Preview {
     AlertFunction()
-    //AlertMethod()
 }

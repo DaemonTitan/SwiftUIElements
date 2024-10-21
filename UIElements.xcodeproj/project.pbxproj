@@ -14,6 +14,7 @@
 		AD77DCA72C6DC7B2007270B0 /* ListSearchFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77DCA62C6DC7B2007270B0 /* ListSearchFilter.swift */; };
 		AD77DCAA2C6DC8F4007270B0 /* ListSearchFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77DCA92C6DC8F4007270B0 /* ListSearchFilterViewModel.swift */; };
 		ADA3482B2C72C5C400C50C64 /* SearchableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA3482A2C72C5C400C50C64 /* SearchableItem.swift */; };
+		ADC4BB0E2CC60848001D31AA /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4BB0D2CC60848001D31AA /* CustomAlert.swift */; };
 		ADC7C4442C3CA99E00ACBF73 /* DrawShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */; };
 		F30040002B55F13A0078A942 /* Practices1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3003FFF2B55F13A0078A942 /* Practices1.swift */; };
 		F30040022B55F51C0078A942 /* Practise2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30040012B55F51C0078A942 /* Practise2.swift */; };
@@ -117,6 +118,7 @@
 		AD77DCA62C6DC7B2007270B0 /* ListSearchFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSearchFilter.swift; sourceTree = "<group>"; };
 		AD77DCA92C6DC8F4007270B0 /* ListSearchFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSearchFilterViewModel.swift; sourceTree = "<group>"; };
 		ADA3482A2C72C5C400C50C64 /* SearchableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableItem.swift; sourceTree = "<group>"; };
+		ADC4BB0D2CC60848001D31AA /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 		ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShapes.swift; sourceTree = "<group>"; };
 		F3003FFF2B55F13A0078A942 /* Practices1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practices1.swift; sourceTree = "<group>"; };
 		F30040012B55F51C0078A942 /* Practise2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practise2.swift; sourceTree = "<group>"; };
@@ -259,9 +261,19 @@
 			path = Searchable;
 			sourceTree = "<group>";
 		};
+		ADC4BB0C2CC60838001D31AA /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				F32F7FC62B5C9EBE0083D4D9 /* AlertFunction.swift */,
+				ADC4BB0D2CC60848001D31AA /* CustomAlert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
 		F300401D2B5637AE0078A942 /* Methods */ = {
 			isa = PBXGroup;
 			children = (
+				ADC4BB0C2CC60838001D31AA /* Alerts */,
 				AD1E963C2CA25209002D781E /* Generics */,
 				ADA348292C72BFD400C50C64 /* Searchable */,
 				F31023122B9C7C2E0004B191 /* Masking */,
@@ -278,7 +290,6 @@
 				F32D42D62B57384000C7C26E /* ExtractSubView.swift */,
 				F32D42D82B573EC900C7C26E /* BindingProperty.swift */,
 				F32D42DA2B57461300C7C26E /* Condition.swift */,
-				F32F7FC62B5C9EBE0083D4D9 /* AlertFunction.swift */,
 				F3BA0E6A2B5D2A7B00B7C9E1 /* ContextMenu.swift */,
 				F30040272B5696950078A942 /* StateVariable.swift */,
 				F3077E332B6502B80056E227 /* DateAndTime.swift */,
@@ -667,6 +678,7 @@
 				F307DB302B6B5735004FD838 /* Models.swift in Sources */,
 				AD77DCAA2C6DC8F4007270B0 /* ListSearchFilterViewModel.swift in Sources */,
 				F31023142B9C88A40004B191 /* TransparentMask.swift in Sources */,
+				ADC4BB0E2CC60848001D31AA /* CustomAlert.swift in Sources */,
 				F3F2C3D12B91919600BFB0E0 /* CombineFramework.swift in Sources */,
 				F307C5602B9A7961008FB475 /* DrawPatch.swift in Sources */,
 				F3077E392B651DC30056E227 /* TabBarCustom.swift in Sources */,

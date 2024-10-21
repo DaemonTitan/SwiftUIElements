@@ -47,7 +47,7 @@ struct GenericView<T: View>: View {
     let title: String
     let content: T
     
-    var body: some View {
+    var body: some View { 
         VStack {
             Text(title)
             content
