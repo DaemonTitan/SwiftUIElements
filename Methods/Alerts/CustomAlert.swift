@@ -24,11 +24,11 @@ extension View {
     
     
     func genericCustomAlert<T: CustomErrorAlert & LocalizedError>(binding: Binding<Bool>, error: T?) -> some View {
-                self.alert(isPresented: binding, error: error) { error in
-                    error.buttons
-                } message: { error in
-                    Text(error.title)
-                }
+        self.alert(isPresented: binding, error: error) { error in
+            error.buttons
+        } message: { error in
+            Text(error.title)
+        }
     }
 }
 
