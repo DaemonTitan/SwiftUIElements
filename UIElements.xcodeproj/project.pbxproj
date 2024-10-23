@@ -16,6 +16,8 @@
 		ADA3482B2C72C5C400C50C64 /* SearchableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA3482A2C72C5C400C50C64 /* SearchableItem.swift */; };
 		ADC4BB0E2CC60848001D31AA /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4BB0D2CC60848001D31AA /* CustomAlert.swift */; };
 		ADC7C4442C3CA99E00ACBF73 /* DrawShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */; };
+		ADDE07982CC8C55E00770CE7 /* ButtonTapAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE07972CC8C55E00770CE7 /* ButtonTapAnimation.swift */; };
+		ADDE079A2CC8D36600770CE7 /* ImageTapAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE07992CC8D36600770CE7 /* ImageTapAnimation.swift */; };
 		F30040002B55F13A0078A942 /* Practices1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3003FFF2B55F13A0078A942 /* Practices1.swift */; };
 		F30040022B55F51C0078A942 /* Practise2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30040012B55F51C0078A942 /* Practise2.swift */; };
 		F300401F2B5637D10078A942 /* ForEachLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F300401E2B5637D10078A942 /* ForEachLoop.swift */; };
@@ -120,6 +122,8 @@
 		ADA3482A2C72C5C400C50C64 /* SearchableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableItem.swift; sourceTree = "<group>"; };
 		ADC4BB0D2CC60848001D31AA /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 		ADC7C4432C3CA99E00ACBF73 /* DrawShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShapes.swift; sourceTree = "<group>"; };
+		ADDE07972CC8C55E00770CE7 /* ButtonTapAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTapAnimation.swift; sourceTree = "<group>"; };
+		ADDE07992CC8D36600770CE7 /* ImageTapAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTapAnimation.swift; sourceTree = "<group>"; };
 		F3003FFF2B55F13A0078A942 /* Practices1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practices1.swift; sourceTree = "<group>"; };
 		F30040012B55F51C0078A942 /* Practise2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practise2.swift; sourceTree = "<group>"; };
 		F300401E2B5637D10078A942 /* ForEachLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoop.swift; sourceTree = "<group>"; };
@@ -268,6 +272,15 @@
 				ADC4BB0D2CC60848001D31AA /* CustomAlert.swift */,
 			);
 			path = Alerts;
+			sourceTree = "<group>";
+		};
+		ADDE07942CC8C16B00770CE7 /* TapAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE07972CC8C55E00770CE7 /* ButtonTapAnimation.swift */,
+				ADDE07992CC8D36600770CE7 /* ImageTapAnimation.swift */,
+			);
+			path = TapAnimation;
 			sourceTree = "<group>";
 		};
 		F300401D2B5637AE0078A942 /* Methods */ = {
@@ -460,6 +473,7 @@
 		F39029DC2B8B50D500664F04 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				ADDE07942CC8C16B00770CE7 /* TapAnimation */,
 				F39029E32B8B550700664F04 /* Practices */,
 				F32D42DE2B57557700C7C26E /* ViewTransition.swift */,
 				AD5FEB072C58A7A4008F6C0D /* ViewTransition1.swift */,
@@ -684,6 +698,7 @@
 				F3077E392B651DC30056E227 /* TabBarCustom.swift in Sources */,
 				F30A750C2B54B9C100ECD4D5 /* Texts.swift in Sources */,
 				F3F2C3CB2B90412300BFB0E0 /* CodableDecodable.swift in Sources */,
+				ADDE079A2CC8D36600770CE7 /* ImageTapAnimation.swift in Sources */,
 				F30A75102B5545B400ECD4D5 /* BackgroundAndOverlay.swift in Sources */,
 				F307DB2C2B6B50E2004FD838 /* AppearDisappear.swift in Sources */,
 				F3F41F0D2BF5D2C000ED3EFB /* ProgressRingView.swift in Sources */,
@@ -696,6 +711,7 @@
 				F39029E22B8B54FB00664F04 /* MatchGeoPractice1.swift in Sources */,
 				F3D771C12B96B8F700B14C83 /* ViewVisualEffect.swift in Sources */,
 				F377238B2B719E6300F1C215 /* FocusMode.swift in Sources */,
+				ADDE07982CC8C55E00770CE7 /* ButtonTapAnimation.swift in Sources */,
 				F360CA462B8CA8C700992670 /* ScrollViewReaders.swift in Sources */,
 				F37723932B71FC8300F1C215 /* AnimationUpgarde.swift in Sources */,
 				F32D42DF2B57557700C7C26E /* ViewTransition.swift in Sources */,
