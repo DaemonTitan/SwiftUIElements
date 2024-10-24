@@ -80,6 +80,38 @@ struct GeometryReaders1: View {
 
 struct GeometryReaders2: View {
     var body: some View {
+        GeometryReader { geometry in
+            VStack {
+                VStack {
+                    Text("Top bar")
+                        .font(.largeTitle)
+                    Text("geometry: \(geometry.size.height / 8)")
+                }
+                .frame(width: geometry.size.width, height: geometry.size.height / 10)
+                .background(.yellow)
+                
+                VStack {
+                    Text("TopMiddlebar")
+                        .font(.largeTitle)
+                    Text("geometry: \(geometry.size.height / 3)")
+                }
+                .frame(width: geometry.size.width, height: geometry.size.height / 3)
+                .background(.yellow)
+                
+                VStack {
+                    Text("Bottom")
+                        .font(.largeTitle)
+                    Text("geometry: \(geometry.size.height / 3)")
+                }
+                .frame(width: geometry.size.width, height: geometry.size.height / 3)
+                .background(.yellow)
+            }
+        }
+    }
+}
+
+struct GeometryReaders3: View {
+    var body: some View {
         ScrollView(.horizontal) {
             HStack {
                 Color.clear.frame(width: (UIScreen.main.bounds.width / 2) - 175)
@@ -117,6 +149,7 @@ struct GeometryReaders2: View {
 
 #Preview {
     //GeometryReaders()
-    GeometryReaders1()
-    //GeometryReaders2()
+    //GeometryReaders1()
+    GeometryReaders2()
+    //GeometryReaders3()
 }
