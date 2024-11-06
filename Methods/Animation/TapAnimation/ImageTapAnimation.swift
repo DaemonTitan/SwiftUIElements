@@ -12,6 +12,7 @@ struct ImageTapAnimation: View {
         AnimateImage1().padding()
         AnimateImage2().padding()
         Animateimage3().padding()
+        TapItem().padding()
         SelectItemAnimate().padding()
         SampleImage().padding()
     }
@@ -107,6 +108,27 @@ struct SelectItemAnimate: View {
         .onTapGesture {
             bounceAnimate.toggle()
         }
+    }
+}
+
+struct TapItem: View {
+    @State var tapAnimate: Bool = false
+    
+    var body: some View {
+        Image(systemName: "xmark")
+            .resizable()
+            .font(.title2.weight(.bold))
+            .foregroundStyle(Color.black)
+            .frame(width: 15, height: 15)
+            .background(
+                Circle()
+                    .foregroundStyle(Color.white)
+                    .frame(width: 30, height: 30)
+            )
+            .shadow(color: Color.black.opacity(0.5),radius: 10)
+            .padding()
+            .scaleEffect(tapAnimate ? 1.5 : 1.0)
+            .animation(.bouncy, value: tapAnimate)
     }
 }
 
