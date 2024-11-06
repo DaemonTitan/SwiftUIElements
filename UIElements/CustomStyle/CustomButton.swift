@@ -29,7 +29,7 @@ struct Button1: View {
                     isPressed.toggle()
                 }
             } label: {
-                CutomButtonStyle(isPressed: $isPressed)
+                CutomButtonStyle(isPressed: $isPressed, isTapped: $isSwiped)
             }
         
         
@@ -72,49 +72,40 @@ struct Button1: View {
 }
 
 struct CutomButtonStyle: View {
-    
     @Binding var isPressed: Bool
+    @Binding var isTapped: Bool
     
     var body: some View {
-        //GeometryReader { geometry in
-        
         ZStack(alignment: .trailing) {
-
                 RoundedRectangle(cornerRadius: 40, style: .continuous)
                     .frame(width: isPressed ? 150 : 45,
                            height: isPressed ? 60 : 45)
                     .foregroundStyle(isPressed ? Color(.lightGray) : Color(.white).opacity(0))
                 
-                
+            ZStack {
                 Circle()
-                    .foregroundStyle(.white)
-                    .frame(width: 50, height: 50)
-                    .shadow(radius: 20)
-//                    .position(
-//                        x: isSwiped ? 50 : geometry.size.width - 50, // Move from right to left
-//                        y: geometry.size.height / 2 // Center vertically
-//                    )
-                    .padding(.horizontal, isPressed ? 8 : 0)
-                    .overlay {
-                        Image(systemName: "dollarsign")
-                            .font(.headline)
-                            .foregroundStyle(.black)
-                    }
-            
-                Image(systemName: "chineseyuanrenminbisign")
+                        .foregroundStyle(.white)
+                        .frame(width: 50, height: 50)
+                        .shadow(radius: 20)
+                        .padding(.horizontal, isPressed ? 8 : 0)
+                Image(systemName: isTapped ? "chineseyuanrenminbisign" : "dollarsign")
+                    .font(.headline)
+                    .foregroundStyle(.black)
+            }
+                Image(systemName: isTapped ? "dollarsign" : "chineseyuanrenminbisign")
                 .font(.title2)
                 .foregroundStyle(.white)
                 .offset(x: -110)
                 .opacity(isPressed ? 1 : 0)
-            
-
-            
+                .onTapGesture {
+                    withAnimation(.easeIn) {
+                        isTapped.toggle()
+                        isPressed = false
+                    }
+                }
         }
         .frame(maxWidth: .infinity, alignment: .trailing)
         .padding()
-        
-        //}
-        
     }
 }
 
@@ -139,6 +130,9 @@ struct Button2: View {
         }
     }
 }
+
+
+
 
 
 #Preview {
