@@ -98,7 +98,7 @@ struct CutomButtonStyle: View {
                 .offset(x: -110)
                 .opacity(isPressed ? 1 : 0)
                 .onTapGesture {
-                    withAnimation(.easeIn) {
+                    withAnimation(.spring) {
                         isTapped.toggle()
                         isPressed = false
                     }
