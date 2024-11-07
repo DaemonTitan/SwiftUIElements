@@ -80,7 +80,7 @@ struct CutomButtonStyle: View {
                 RoundedRectangle(cornerRadius: 40, style: .continuous)
                     .frame(width: isPressed ? 150 : 45,
                            height: isPressed ? 60 : 45)
-                    .foregroundStyle(isPressed ? Color(.lightGray) : Color(.white).opacity(0))
+                    .foregroundStyle(isPressed ? Color(.gray).shadow(.inner(radius: 3)) : Color(.white).opacity(0).shadow(.inner(radius: 0)))
                 
             ZStack {
                 Circle()
