@@ -75,6 +75,7 @@
 		F34652082B8E828D00AED13C /* DataManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34652072B8E828D00AED13C /* DataManipulation.swift */; };
 		F34E165E2CDC3059006C40C2 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34E165D2CDC3059006C40C2 /* CustomNavigationBar.swift */; };
 		F34E16612CDC482D006C40C2 /* CustomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34E16602CDC482D006C40C2 /* CustomNavigation.swift */; };
+		F34E16632CE5C771006C40C2 /* StateObjectInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34E16622CE5C771006C40C2 /* StateObjectInit.swift */; };
 		F360CA3E2B8BF8AE00992670 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */; };
 		F360CA402B8C0B7A00992670 /* ZoomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */; };
 		F360CA422B8C2A9700992670 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360CA412B8C2A9700992670 /* Rotation.swift */; };
@@ -186,6 +187,7 @@
 		F34652072B8E828D00AED13C /* DataManipulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManipulation.swift; sourceTree = "<group>"; };
 		F34E165D2CDC3059006C40C2 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		F34E16602CDC482D006C40C2 /* CustomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigation.swift; sourceTree = "<group>"; };
+		F34E16622CE5C771006C40C2 /* StateObjectInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectInit.swift; sourceTree = "<group>"; };
 		F360CA3D2B8BF8AE00992670 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		F360CA3F2B8C0B7A00992670 /* ZoomGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomGesture.swift; sourceTree = "<group>"; };
 		F360CA412B8C2A9700992670 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
@@ -344,6 +346,7 @@
 				F3F2C3CA2B90412300BFB0E0 /* CodableDecodable.swift */,
 				F33AEAC62B9838E7009A2A0F /* HashableData.swift */,
 				F307C55F2B9A7961008FB475 /* DrawPatch.swift */,
+				F34E16622CE5C771006C40C2 /* StateObjectInit.swift */,
 			);
 			path = Methods;
 			sourceTree = "<group>";
@@ -726,6 +729,7 @@
 				F3B1879F2B5BE9EA001C4F4D /* ListFunction.swift in Sources */,
 				AD77DCA72C6DC7B2007270B0 /* ListSearchFilter.swift in Sources */,
 				F33E364B2B9494A90029FB66 /* PublishSubscribCombine.swift in Sources */,
+				F34E16632CE5C771006C40C2 /* StateObjectInit.swift in Sources */,
 				F360CA3E2B8BF8AE00992670 /* LongPressGesture.swift in Sources */,
 				F307DB302B6B5735004FD838 /* Models.swift in Sources */,
 				AD77DCAA2C6DC8F4007270B0 /* ListSearchFilterViewModel.swift in Sources */,
