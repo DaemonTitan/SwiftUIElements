@@ -16,8 +16,8 @@ struct ScrollPathKey: PreferenceKey {
 
 struct CustomNavigationBar: View {
     var body: some View {
-        //CustomNavigationBar1()
-        CustomNavigationBar2()
+        CustomNavigationBar1()
+        //CustomNavigationBar2()
     }
 }
 
@@ -60,9 +60,11 @@ struct CustomNavigationBar1: View {
                     Text("Feature")
                         .font(isScroll ? .system(size: 22) : .system(size: 35).bold())
                         .frame(maxWidth: .infinity, alignment: .leading)
-                    Image(systemName: "gear")
-                        .font(isScroll ? .title : .largeTitle)
-                        .padding(.bottom, 6)
+//                    Image(systemName: "gear")
+//                        .font(isScroll ? .title : .largeTitle)
+//                        .padding(.bottom, 6)
+                    
+                    
                 }
                 .offset(y: isScroll ? -30 : -25)
                 .padding(.horizontal)

@@ -53,9 +53,8 @@ struct CustomNavigation: View {
                     Text("Feature")
                         .font(isScroll ? .system(size: 22) : .system(size: 35).bold())
                         .frame(maxWidth: .infinity, alignment: .leading)
-                    Image(systemName: "gear")
-                        .font(isScroll ? .title : .largeTitle)
-                        .padding(.bottom, 6)
+                    Button1()
+                        .opacity(isScroll ? 0 : 1)
                 }
                 .offset(y: isScroll ? -30 : -25)
                 .padding(.horizontal)
