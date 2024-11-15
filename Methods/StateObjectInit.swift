@@ -20,7 +20,7 @@ class DashboardViewModel: ObservableObject {
 }
 
 struct StateObjectInit: View {
-    var user: User
+    //var user: User
     //@StateObject var vm = DashboardViewModel(name: user.name)
     @StateObject private var vm: DashboardViewModel
     
